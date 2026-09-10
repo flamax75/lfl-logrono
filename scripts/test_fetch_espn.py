@@ -26,9 +26,18 @@ def response_data():
 
 class ExportTests(unittest.TestCase):
     def test_normalize_missing_and_zero(self):
-        data = exporter.normalize(response_data())
+        raw = response_data()
+        raw['teams'][0].update({'playoffSeed': 4, 'rankFinal': 2, 'rankCalculatedFinal': 1})
+        raw['teams'][0]['record']['overall'].update({'ties': 2, 'pointsAgainst': 3.5, 'percentage': .625, 'gamesBack': 1.0})
+        data = exporter.normalize(raw)
         self.assertIsNone(data['teams'][0]['name'])
         self.assertEqual(data['teams'][0]['wins'], 0)
+        self.assertEqual(data['teams'][0]['ties'], 2)
+        self.assertEqual(data['teams'][0]['pa'], 3.5)
+        self.assertEqual(data['teams'][0]['percentage'], .625)
+        self.assertEqual(data['teams'][0]['gamesBack'], 1.0)
+        self.assertEqual(data['teams'][0]['standing'], 1)
+        self.assertEqual(data['teams'][0]['standingSource'], 'rankCalculatedFinal')
         self.assertIsNone(data['teams'][0]['losses'])
         self.assertEqual(data['teams'][0]['owners'], ['Nombre recibido'])
         self.assertNotIn('private-member-guid', json.dumps(data))
@@ -38,6 +47,18 @@ class ExportTests(unittest.TestCase):
         self.assertEqual(match['homePoints'], 0)
         self.assertIsNone(match['awayPoints'])
         self.assertIsNone(match['homeChance'])
+
+    def test_current_week_uses_live_scores_without_changing_official_record(self):
+        raw = response_data()
+        raw['schedule'][0]['home'].update({'totalPoints': 99, 'totalPointsLive': 12.34, 'totalProjectedPoints': 110, 'totalProjectedPointsLive': 100})
+        data = exporter.normalize(raw)
+        team = data['teams'][0]
+        match = data['weeks'][0]['matches'][0]
+        self.assertEqual(team['wins'], 0)
+        self.assertEqual(team['pf'], 0)
+        self.assertEqual(match['status'], 'En directo')
+        self.assertEqual(match['homePoints'], 12.34)
+        self.assertEqual(match['homeProjection'], 100)
 
     def test_roster_period(self):
         entry = {'playerId': 123, 'lineupSlotId': 20, 'playerPoolEntry': {'player': {'id': 123, 'stats': [

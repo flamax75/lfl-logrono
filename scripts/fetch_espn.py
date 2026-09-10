@@ -72,6 +72,10 @@ def numeric(value):
     return value if isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value) else None
 
 
+def positive_integer(value):
+    return value if isinstance(value, int) and not isinstance(value, bool) and value > 0 else None
+
+
 def text(value):
     return value if isinstance(value, str) and value.strip() else None
 
@@ -107,7 +111,16 @@ def normalize(raw):
     for item in raw['teams']:
         if not isinstance(item.get('id'), int):
             raise ExportError('Respuesta ESPN inesperada: equipo sin ID valido.')
+        # mStandings entrega aquí el récord oficial de temporada. No se mezcla
+        # con los puntos live de los enfrentamientos aún sin cerrar.
         record = (item.get('record') or {}).get('overall') or {}
+        rank_calculated = positive_integer(item.get('rankCalculatedFinal'))
+        rank_final = positive_integer(item.get('rankFinal'))
+        playoff_seed = positive_integer(item.get('playoffSeed'))
+        standing = rank_calculated or rank_final or playoff_seed
+        standing_source = ('rankCalculatedFinal' if rank_calculated else
+                           'rankFinal' if rank_final else
+                           'playoffSeed' if playoff_seed else None)
         owners = []
         for owner_id in item.get('owners', []):
             member = members.get(owner_id, {})
@@ -116,7 +129,7 @@ def normalize(raw):
             if name:
                 owners.append(name)
         name = text(item.get('name')) or ' '.join(filter(None, (text(item.get('location')), text(item.get('nickname'))))) or None
-        teams.append({'id': item['id'], 'name': name, 'abbrev': text(item.get('abbrev')), 'owners': owners, 'wins': numeric(record.get('wins')), 'losses': numeric(record.get('losses')), 'ties': numeric(record.get('ties')), 'pf': numeric(record.get('pointsFor')), 'pa': numeric(record.get('pointsAgainst')), 'standing': numeric(item.get('playoffSeed')), 'streakLength': numeric(record.get('streakLength')), 'streakType': text(record.get('streakType')), 'rosterScoringPeriodId': period, 'roster': roster(item.get('roster'), period)})
+        teams.append({'id': item['id'], 'name': name, 'abbrev': text(item.get('abbrev')), 'owners': owners, 'wins': numeric(record.get('wins')), 'losses': numeric(record.get('losses')), 'ties': numeric(record.get('ties')), 'pf': numeric(record.get('pointsFor')), 'pa': numeric(record.get('pointsAgainst')), 'percentage': numeric(record.get('percentage')), 'gamesBack': numeric(record.get('gamesBack')), 'standing': standing, 'standingSource': standing_source, 'streakLength': numeric(record.get('streakLength')), 'streakType': text(record.get('streakType')), 'rosterScoringPeriodId': period, 'roster': roster(item.get('roster'), period)})
     known_ids = {t['id'] for t in teams}
     if len(known_ids) != len(teams):
         raise ExportError('Respuesta ESPN inesperada: IDs de equipo duplicados.')
@@ -130,14 +143,19 @@ def normalize(raw):
         if any(id_ is not None and id_ not in known_ids for id_ in ids):
             raise ExportError('Respuesta ESPN incompleta: un enfrentamiento referencia equipos no recibidos.')
         winner = text(match.get('winner'))
-        state = 'Final' if winner in ('HOME', 'AWAY', 'TIE') else 'Programado' if current is not None and week > current else 'Sin finalizar'
+        is_current = week == current
+        state = 'Final' if winner in ('HOME', 'AWAY', 'TIE') else 'Programado' if current is not None and week > current else 'En directo' if is_current else 'Sin finalizar'
         result = {'id': match.get('id'), 'week': week, 'homeId': ids[0], 'awayId': ids[1], 'winner': winner, 'status': state, 'playoffTierType': text(match.get('playoffTierType')), 'homeChance': None, 'rosterScoringPeriodId': period if week == current else None}
         for prefix, side in zip(('home', 'away'), sides):
-            result[prefix + 'Points'] = numeric(side.get('totalPoints'))
-            result[prefix + 'Projection'] = numeric(side.get('totalProjectedPoints'))
-            result[prefix + 'Roster'] = roster(side.get('rosterForCurrentScoringPeriod'), period) if week == current else []
-            result[prefix + 'LivePoints'] = numeric(side.get('totalPointsLive'))
-            result[prefix + 'LiveProjection'] = numeric(side.get('totalProjectedPointsLive'))
+            live_points = numeric(side.get('totalPointsLive'))
+            live_projection = numeric(side.get('totalProjectedPointsLive'))
+            # En la jornada activa ESPN mantiene totalPoints como récord oficial
+            # del matchup hasta el cierre; la pantalla Jornada debe mostrar live.
+            result[prefix + 'Points'] = live_points if is_current and live_points is not None else numeric(side.get('totalPoints'))
+            result[prefix + 'Projection'] = live_projection if is_current and live_projection is not None else numeric(side.get('totalProjectedPoints'))
+            result[prefix + 'Roster'] = roster(side.get('rosterForCurrentScoringPeriod'), period) if is_current else []
+            result[prefix + 'LivePoints'] = live_points
+            result[prefix + 'LiveProjection'] = live_projection
         weeks.setdefault(week, []).append(result)
     return {'schemaVersion': 1, 'source': 'ESPN', 'available': True, 'updatedAt': datetime.now(timezone.utc).isoformat(), 'league': {'id': raw['id'], 'name': text(settings.get('name')), 'season': raw['seasonId'], 'sport': 'ffl', 'size': len(teams), 'currentWeek': current, 'scoringPeriodId': period, 'scoringType': text((settings.get('scoringSettings') or {}).get('scoringType'))}, 'teams': teams, 'weeks': [{'number': week, 'matches': matches} for week, matches in sorted(weeks.items())]}
 
