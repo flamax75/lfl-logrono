@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090f1b">
+  <meta name="description" content="LFL — Logroño Fútbol League. Sigue la jornada, los equipos y la clasificación de Liga Papeo2. Temporada 2026.">
+  <title>LFL — Logroño Fútbol League</title>
+  <link rel="icon" href="assets/images/logo-lfl.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/logo-lfl.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="intro" id="intro" role="dialog" aria-modal="true" aria-label="Bienvenido a Logroño Fútbol League" hidden>
+    <div class="intro-lines" aria-hidden="true"></div>
+    <div class="intro-stage">
+      <img class="intro-logo intro-lfl" src="assets/images/logo-lfl.png" alt="LFL">
+      <img class="intro-logo intro-papeo" src="assets/images/logo-papeo2.png" alt="Liga Papeo2">
+    </div>
+    <div class="intro-copy"><strong>LFL</strong><h1>LOGROÑO FÚTBOL LEAGUE</h1><p>LIGA PAPEO2 · TEMPORADA 2026</p><button id="enter" class="primary">ENTRAR A LA LIGA <span aria-hidden="true">↗</span></button></div>
+  </div>
+  <div id="app">
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="header"><div class="header-inner">
+      <a href="#inicio" class="brand" aria-label="LFL, inicio"><img src="assets/images/logo-lfl.png" alt="Logo LFL"><span><b>LFL <span class="brand-name">Logroño Fútbol League</span></b><small>Liga Papeo2 · 2026</small></span></a>
+      <span class="season-tag" id="team-count">LIGA PAPEO2</span>
+      <nav id="navigation" aria-label="Navegación principal"></nav>
+    </div></header>
+    <main id="main" tabindex="-1">
+      <div class="league-strip"><span><i class="status-dot"></i> TEMPORADA 2026</span><span class="data-badge" id="data-status" role="status">Datos de ESPN no disponibles</span></div>
+      <p id="data-notice" class="legend" aria-live="polite"></p>
+      <section id="inicio" aria-labelledby="title-inicio"><div class="section-heading"><div><p class="eyebrow">LIGA PAPEO2 / REGULAR SEASON</p><h1 id="title-inicio" tabindex="-1">La liga se juega aquí<span>.</span></h1></div><span class="week-tag">JORNADA <b data-current-week>—</b></span></div><div id="home-feature"></div><div class="section-heading compact"><h2>Todos los enfrentamientos</h2><button class="text-button" data-go="jornada">Ver jornada <span aria-hidden="true">↗</span></button></div><div id="home-matches" class="match-grid"></div></section>
+      <section id="jornada" aria-labelledby="title-jornada" hidden><div class="section-heading"><div><p class="eyebrow">CADA PUNTO CUENTA</p><h1 id="title-jornada" tabindex="-1">Jornada<span>.</span></h1></div><label class="week-select">Jornada<select id="week-selector"></select></label></div><p class="section-description">Calendario y resultados recibidos de ESPN.</p><div id="week-matches" class="match-grid"></div></section>
+      <section id="clasificacion" aria-labelledby="title-clasificacion" hidden><div class="section-heading"><div><p class="eyebrow">EL CAMINO A LOS PLAYOFFS</p><h1 id="title-clasificacion" tabindex="-1">Clasificación<span>.</span></h1></div></div><p class="section-description">Posición, balance y puntos recibidos de ESPN.</p><div id="standings" class="panel standings"></div><p class="legend">W: victorias · L: derrotas · PF: puntos a favor · PA: puntos en contra</p></section>
+      <section id="equipos" aria-labelledby="title-equipos" hidden><div class="section-heading"><div><p class="eyebrow">LOS PROTAGONISTAS</p><h1 id="title-equipos" tabindex="-1">Los equipos de la liga<span>.</span></h1></div></div><p class="section-description">Conoce a los managers y descubre sus plantillas.</p><div id="teams" class="team-grid"></div></section>
+      <section id="estadisticas" aria-labelledby="title-estadisticas" hidden><div class="section-heading"><div><p class="eyebrow">MÁS ALLÁ DEL MARCADOR</p><h1 id="title-estadisticas" tabindex="-1">Los números hablan<span>.</span></h1></div><span class="week-tag">SEMANA <b data-current-week>—</b></span></div><div id="stats" class="stats-grid"></div></section>
+      <footer><span><b>LFL</b> LOGROÑO FÚTBOL LEAGUE</span><span>Liga Papeo2 · Head to Head Points · 2026</span><small>ESPN · Actualización local manual</small></footer>
+    </main>
+  </div>
+  <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span class="eyebrow">LIGA PAPEO2 · ESPN</span><button id="close-detail" class="icon-button" aria-label="Cerrar detalle">✕</button></div><div id="detail-content"></div></dialog>
+  <noscript><p class="noscript">Activa JavaScript para ver los equipos, la jornada y la clasificación de LFL.</p></noscript>
+</body>
+</html>
