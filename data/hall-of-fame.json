@@ -1,0 +1,8 @@
+{
+  "champions": [
+    { "year": 2025, "champion": "GothamCityFC", "record": "10-4-0" },
+    { "year": 2024, "champion": "DARIOS TEAM", "record": "9-5-0" },
+    { "year": 2023, "champion": "Bulldogs", "record": "9-5-0" },
+    { "year": 2022, "champion": "Valhalla", "record": "10-5-0" }
+  ]
+}

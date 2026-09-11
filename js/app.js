@@ -11,7 +11,7 @@
   const append = (parent, ...children) => { parent.append(...children); return parent; };
   const avatar = t => { const node = el('span', 'avatar silver', t?.abbrev || t?.name?.split(/\s+/).map(word => word[0]).slice(0, 2).join('') || '—'); node.setAttribute('aria-hidden', 'true'); return node; };
   const action = (label, className, callback) => { const button = el('button', className, label); button.type = 'button'; button.addEventListener('click', callback); return button; };
-  const navItems = [['inicio','Inicio','M3 10 12 3l9 7v11h-6v-7H9v7H3Z'],['jornada','Jornada','M4 5h16v16H4ZM8 2v6m8-6v6M4 11h16'],['clasificacion','Clasificación','M4 21V11h4v10m2 0V3h4v18m2 0V7h4v14'],['equipos','Equipos','M16 21v-3a4 4 0 0 0-8 0v3M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM3 20v-3m18 3v-3'],['estadisticas','Estadísticas','M3 3v18h18M6 15l5-5 4 3 6-8']];
+  const navItems = [['inicio','Inicio','M3 10 12 3l9 7v11h-6v-7H9v7H3Z'],['jornada','Jornada','M4 5h16v16H4ZM8 2v6m8-6v6M4 11h16'],['clasificacion','Clasificación','M4 21V11h4v10m2 0V3h4v18m2 0V7h4v14'],['equipos','Equipos','M16 21v-3a4 4 0 0 0-8 0v3M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM3 20v-3m18 3v-3'],['estadisticas','Estadísticas','M3 3v18h18M6 15l5-5 4 3 6-8'],['salon','Salón','M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.8-5.4 2.8 1-6.1L3.2 9.4l6.1-.9Z']];
   navItems.forEach(([id,label,path]) => {
     const button = action('', 'nav-button', () => { location.hash = id; });
     button.dataset.section = id; button.setAttribute('aria-controls', id);
@@ -49,17 +49,23 @@
     append(button, probability(), el('span','card-link','Ver enfrentamiento ↗'));
     return button;
   }
-  function renderFeature(match) {
-    if (!match) { $('home-feature').replaceChildren(empty()); return; }
-    const feature = el('article','feature');
-    append(feature,append(el('div','feature-top'),el('span','eyebrow','PARTIDO DE LA JORNADA'),el('span','feature-status',match.status)));
-    const duel = el('div','feature-duel');
-    [match.homeId,match.awayId].forEach((id,i) => {
-      if (i) duel.append(append(el('div','versus'),el('span','','VS'),el('small','',`JORNADA ${match.week}`)));
-      append(duel,append(el('div','feature-team'),avatar(team(id)),el('h2','',name(team(id))),el('strong','feature-score',number(i?match.awayPoints:match.homePoints)),el('small','','PUNTOS FANTASY')));
-    });
-    append(feature,duel,probability(),action('Ver el duelo completo ↗','feature-link',()=>openMatch(match)));
-    $('home-feature').replaceChildren(feature);
+  let champions=[];
+  const paragraphs = lines => lines.map(line=>el('p','editorial-copy',line));
+  function renderEditorial() {
+    const current=data.weeks.find(w=>w.number===data.league.currentWeek);
+    $('latest-news').replaceChildren(el('p','editorial-copy',current ? `La jornada ${current.number} es la referencia actual de la temporada 2026.` : 'ESPN aún no ha señalado una jornada actual.'));
+    $('week-chronicle').replaceChildren(...paragraphs(window.editorial.weekChronicle(data,champions)));
+    $('standings-chronicle').replaceChildren(...paragraphs(window.editorial.standingsChronicle(data)));
+    const next=window.editorial.nextWeek(data,champions);
+    const list=el('div','next-list');
+    next.matches.forEach(match=>list.append(el('p','next-match',`${name(match.home)} — ${name(match.away)}`)));
+    $('next-week').replaceChildren(...(next.text ? [el('p','editorial-copy',next.text)] : []),list);
+  }
+  function renderHallOfFame() {
+    const table=el('table','hall-table');
+    const head=el('thead'), row=el('tr');['AÑO','CAMPEÓN','RÉCORD'].forEach(label=>row.append(el('th','',label)));head.append(row);
+    const body=el('tbody');champions.forEach(champion=>{const item=el('tr','hall-row');item.append(el('td','hall-year',String(champion.year)),el('th','',champion.champion),el('td','',champion.record));body.append(item);});
+    append(table,head,body);$('hall-of-fame').replaceChildren(table);
   }
   function renderWeek() {
     const week = data.weeks.find(w => String(w.number) === $('week-selector').value);
@@ -134,7 +140,7 @@
   dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
   dialog.addEventListener('close',()=>{document.body.classList.remove('modal-open');previousFocus?.focus();});
   function showUnavailable() {
-    ['home-feature','home-matches','week-matches','standings','teams','stats'].forEach(id=>$(id).replaceChildren(empty()));
+    ['latest-news','week-chronicle','standings-chronicle','next-week','week-matches','standings','teams','stats'].forEach(id=>$(id).replaceChildren(empty()));
     $('week-selector').replaceChildren(el('option','','Sin jornadas disponibles'));$('week-selector').disabled=true;
     $('data-status').textContent=unavailable;
     $('data-notice').textContent=location.protocol === 'file:' ? 'Abre la web con el servidor local para cargar data/league.json.' : 'No se han podido actualizar los datos de ESPN.';
@@ -154,13 +160,11 @@
       const selectedWeek=$('week-selector').value;
       data=nextData;
       const current=data.weeks.find(w=>w.number===data.league.currentWeek);
-      renderFeature(current?.matches.find(m=>m.homeId !== null && m.awayId !== null));
-      $('home-matches').replaceChildren(...(current?.matches.length ? current.matches.map(matchCard) : [empty()]));
       $('week-selector').replaceChildren(...data.weeks.map(w=>{const o=el('option','',`Jornada ${w.number}`);o.value=w.number;return o;}));
       $('week-selector').disabled=!data.weeks.length;
       if (data.weeks.some(w=>String(w.number)===selectedWeek)) $('week-selector').value=selectedWeek;
       else if(current) $('week-selector').value=String(current.number);
-      renderWeek();renderStandings();renderTeams();renderStats();
+      renderEditorial();renderWeek();renderStandings();renderTeams();renderStats();
       document.querySelectorAll('[data-current-week]').forEach(node=>{node.textContent=display(data.league.currentWeek);});
       $('team-count').textContent=`${data.teams.length} EQUIPOS · UNA LIGA`;
       $('data-status').textContent='DATOS DE ESPN';
@@ -170,6 +174,7 @@
     }
   }
   navigate(false);
+  window.loadHallOfFame().then(items=>{champions=items;renderHallOfFame();if(data)renderEditorial();}).catch(()=>{$('hall-of-fame').replaceChildren(empty('Salón de la Fama no disponible.'));});
   load(true);
   window.setInterval(()=>load(false),60000);
   const intro=$('intro');const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');let finished=false;

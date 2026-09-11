@@ -18,4 +18,11 @@
     }
     return data;
   };
+  window.loadHallOfFame = async () => {
+    const response = await fetch('./data/hall-of-fame.json', { cache: 'no-store', credentials: 'omit' });
+    if (!response.ok) throw new Error('Salón de la Fama no disponible');
+    const data = await response.json();
+    if (!Array.isArray(data.champions) || data.champions.some(item => !Number.isInteger(item.year) || typeof item.champion !== 'string' || typeof item.record !== 'string')) throw new Error('Salón de la Fama no disponible');
+    return data.champions;
+  };
 })();
