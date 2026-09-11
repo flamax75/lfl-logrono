@@ -106,20 +106,20 @@ class ExportTests(unittest.TestCase):
     def test_missing_credentials_clears_export(self):
         with tempfile.TemporaryDirectory() as folder:
             output = Path(folder) / 'league.json'
-            with patch.dict(os.environ, {'ESPN_S2': 'ignored', 'ESPN_SWID': 'ignored'}, clear=True), patch.object(exporter, 'load_env', return_value={}), patch.object(exporter, 'OUTPUT', output), contextlib.redirect_stderr(io.StringIO()):
+            with patch.dict(os.environ, {}, clear=True), patch.object(exporter, 'load_env', return_value={}), patch.object(exporter, 'OUTPUT', output), contextlib.redirect_stderr(io.StringIO()):
                 self.assertEqual(exporter.main(), 1)
                 self.assertFalse(json.loads(output.read_text(encoding='utf-8'))['available'])
 
-    def test_env_preserves_equals_and_ignores_existing_environment(self):
+    def test_env_preserves_equals_and_prefers_action_secrets(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / '.env'
             path.write_text('ESPN_S2="test=value=="\nESPN_SWID={test-only}\n', encoding='utf-8-sig')
-            with patch.dict(os.environ, {'ESPN_SWID': 'existing'}, clear=True):
+            with patch.dict(os.environ, {}, clear=True):
                 credentials = exporter.load_env(path)
                 self.assertEqual(credentials['ESPN_S2'], 'test=value==')
                 self.assertEqual(credentials['ESPN_SWID'], '{test-only}')
-                self.assertNotIn('ESPN_S2', os.environ)
-                self.assertEqual(os.environ['ESPN_SWID'], 'existing')
+            with patch.dict(os.environ, {'ESPN_S2': 'action-s2', 'ESPN_SWID': 'action-swid'}, clear=True):
+                self.assertEqual(exporter.load_env(path), {'ESPN_S2': 'action-s2', 'ESPN_SWID': 'action-swid'})
 
     def test_secret_guard_before_write(self):
         with tempfile.TemporaryDirectory() as folder:

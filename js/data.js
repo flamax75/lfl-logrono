@@ -2,10 +2,11 @@
 (() => {
   'use strict';
   window.loadLeague = async () => {
-    const response = await fetch('./data/league.json', { cache: 'no-store', credentials: 'omit' });
+    const response = await fetch(`./data/league.json?ts=${Date.now()}`, { cache: 'no-store', credentials: 'omit' });
     if (!response.ok) throw new Error('Datos de ESPN no disponibles');
     const data = await response.json();
     if (data.schemaVersion !== 1 || data.source !== 'ESPN' || data.available !== true ||
+        typeof data.updatedAt !== 'string' || Number.isNaN(new Date(data.updatedAt).getTime()) ||
         !data.league || !Array.isArray(data.teams) || !data.teams.length || !Array.isArray(data.weeks)) {
       throw new Error('Datos de ESPN no disponibles');
     }

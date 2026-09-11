@@ -1,6 +1,7 @@
 """Exportacion local ESPN. Python 3.10+, exclusivamente biblioteca estandar."""
 import json
 import math
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,6 +23,10 @@ class ExportError(Exception):
 
 
 def load_env(path=ROOT / '.env'):
+    """Lee Secrets de Actions o, en local, el archivo .env no versionado."""
+    environment = {key: os.environ.get(key, '').strip() for key in ('ESPN_S2', 'ESPN_SWID')}
+    if all(environment.values()):
+        return environment
     credentials = {}
     if not path.exists():
         return credentials

@@ -26,7 +26,18 @@ ESPN_SWID=PEGA_AQUI_EL_VALOR_DE_LA_COOKIE_SWID
 
 Inicia sesión en ESPN con una cuenta que pueda ver la liga. En las herramientas de desarrollador del navegador, abre Almacenamiento / Aplicación → Cookies y busca `espn_s2` y `SWID` para ESPN. Copia únicamente sus valores, sin `Cookie:`, sin punto y coma y sin decodificar. Conserva las llaves de SWID si las incluye el valor original. Guarda y cierra el archivo. No pegues cookies en el código ni las compartas en el chat.
 
-El script lee las credenciales exclusivamente del `.env` de la raíz, aunque lo ejecutes desde otra carpeta. Ignora las variables de entorno. Acepta valores entre comillas, no requiere dotenv ni realiza interpolaciones. `.env` y sus variantes privadas están ignorados por Git; `.env.example` contiene exclusivamente campos vacíos.
+El script lee las credenciales del `.env` de la raíz en local, aunque lo ejecutes desde otra carpeta. En GitHub Actions utiliza exclusivamente las variables de entorno de los Repository Secrets. Acepta valores entre comillas, no requiere dotenv ni realiza interpolaciones. `.env` y sus variantes privadas están ignorados por Git; `.env.example` contiene exclusivamente campos vacíos.
+
+## Actualización automática en GitHub Pages
+
+El workflow `.github/workflows/update-espn.yml` consulta ESPN cada cinco minutos y actualiza únicamente `data/league.json`. Antes de activarlo, crea en el repositorio de GitHub estos **Repository Secrets**:
+
+**Settings** → **Secrets and variables** → **Actions** → **New repository secret**
+
+- `ESPN_S2`
+- `ESPN_SWID`
+
+No incluyas los valores de estas cookies en el README, el código ni ningún archivo versionado. El workflow los entrega al proceso de Python solo como variables de entorno y no los imprime. La página consulta exclusivamente el JSON publicado, se actualiza de forma silenciosa cada 60 segundos y avisa discretamente si la última descarga supera 15 minutos.
 
 ## Descargar los datos
 
@@ -81,10 +92,10 @@ El exportador conserva IDs de liga, equipo, partido, jugador, equipo profesional
 - `js/data.js`: fetch del JSON y validación básica.
 - `js/app.js`: navegación, renderizado seguro con textContent y estados vacíos.
 - `index.html`, `css/style.css`: interfaz y estilo conservados.
-- `manifest.webmanifest`, `service-worker.js`: preparación PWA sin caché de aplicación.
+- `manifest.webmanifest`, `service-worker.js`: preparación PWA; `data/league.json` siempre se solicita a red, sin caché antigua.
 - `assets/images/`: logos originales.
 
-Sin GitHub Actions, sincronización programada, commit, push ni publicación. La autenticación real solo se puede confirmar al ejecutar el script con cookies válidas de una cuenta autorizada.
+La sincronización programada usa GitHub Actions y solo realiza commit/push cuando `data/league.json` cambia. La autenticación real solo se puede confirmar al ejecutar el script con cookies válidas de una cuenta autorizada.
 
 ## Validación
 

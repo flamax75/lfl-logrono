@@ -137,30 +137,41 @@
     ['home-feature','home-matches','week-matches','standings','teams','stats'].forEach(id=>$(id).replaceChildren(empty()));
     $('week-selector').replaceChildren(el('option','','Sin jornadas disponibles'));$('week-selector').disabled=true;
     $('data-status').textContent=unavailable;
-    $('data-notice').textContent=location.protocol === 'file:' ? 'Abre la web con el servidor local para cargar data/league.json.' : 'Ejecuta la descarga local de ESPN y recarga esta página.';
+    $('data-notice').textContent=location.protocol === 'file:' ? 'Abre la web con el servidor local para cargar data/league.json.' : 'No se han podido actualizar los datos de ESPN.';
   }
-  async function load() {
-    $('data-status').textContent='Cargando ESPN…';
+  function updateDataNotice(updatedAt) {
+    const date=new Date(updatedAt);
+    if (Number.isNaN(date.getTime())) { $('data-notice').textContent='Datos ESPN actualizados: hora no disponible'; return; }
+    const time=date.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
+    const stale=Date.now()-date.getTime()>15*60*1000;
+    $('data-notice').textContent=`Datos ESPN actualizados: ${time}${stale ? ' · Datos posiblemente desactualizados' : ''}`;
+  }
+  async function load(initial = false) {
+    if (initial) $('data-status').textContent='Cargando ESPN…';
     try {
-      data=await window.loadLeague();
+      const nextData=await window.loadLeague();
+      if (!initial && data?.updatedAt === nextData.updatedAt) { updateDataNotice(data.updatedAt); return; }
+      const selectedWeek=$('week-selector').value;
+      data=nextData;
       const current=data.weeks.find(w=>w.number===data.league.currentWeek);
       renderFeature(current?.matches.find(m=>m.homeId !== null && m.awayId !== null));
       $('home-matches').replaceChildren(...(current?.matches.length ? current.matches.map(matchCard) : [empty()]));
       $('week-selector').replaceChildren(...data.weeks.map(w=>{const o=el('option','',`Jornada ${w.number}`);o.value=w.number;return o;}));
       $('week-selector').disabled=!data.weeks.length;
-      if(current) $('week-selector').value=String(current.number);
+      if (data.weeks.some(w=>String(w.number)===selectedWeek)) $('week-selector').value=selectedWeek;
+      else if(current) $('week-selector').value=String(current.number);
       renderWeek();renderStandings();renderTeams();renderStats();
       document.querySelectorAll('[data-current-week]').forEach(node=>{node.textContent=display(data.league.currentWeek);});
       $('team-count').textContent=`${data.teams.length} EQUIPOS · UNA LIGA`;
       $('data-status').textContent='DATOS DE ESPN';
-      const date=new Date(data.updatedAt);
-      $('data-notice').textContent=`Última descarga: ${Number.isNaN(date.getTime()) ? 'fecha no disponible' : date.toLocaleString('es-ES')}. Actualización local manual.`;
+      updateDataNotice(data.updatedAt);
     } catch {
       showUnavailable();
     }
   }
   navigate(false);
-  load();
+  load(true);
+  window.setInterval(()=>load(false),60000);
   const intro=$('intro');const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');let finished=false;
   intro.hidden=false;$('app').inert=true;document.body.classList.add('intro-open');$('enter').focus({preventScroll:true});
   function endIntro(){if(finished)return;finished=true;clearTimeout(introTimer);intro.classList.add('leaving');$('app').inert=false;document.body.classList.remove('intro-open');$(`title-${currentSection}`).focus({preventScroll:true});setTimeout(()=>{intro.hidden=true;},reduced.matches?0:450);}
