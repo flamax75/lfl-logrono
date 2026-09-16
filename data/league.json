@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-16T19:46:08.162669+00:00",
+  "updatedAt": "2026-09-16T22:23:17.623653+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -381,18 +381,6 @@
           "scoringPeriodId": 2
         },
         {
-          "id": 3917792,
-          "name": "Daniel Jones",
-          "proTeamId": 11,
-          "positionId": 1,
-          "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 13.45594669,
-          "scoringPeriodId": 2
-        },
-        {
           "id": 4432577,
           "name": "C.J. Stroud",
           "proTeamId": 34,
@@ -414,6 +402,18 @@
           "slot": "BN",
           "points": null,
           "projection": 16.19062605,
+          "scoringPeriodId": 2
+        },
+        {
+          "id": 4373626,
+          "name": "Tyler Allgeier",
+          "proTeamId": 22,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 7.0419723,
           "scoringPeriodId": 2
         }
       ]
@@ -3498,18 +3498,6 @@
               "scoringPeriodId": 2
             },
             {
-              "id": 3917792,
-              "name": "Daniel Jones",
-              "proTeamId": 11,
-              "positionId": 1,
-              "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 13.45594669,
-              "scoringPeriodId": 2
-            },
-            {
               "id": 4432577,
               "name": "C.J. Stroud",
               "proTeamId": 34,
@@ -3531,6 +3519,18 @@
               "slot": "BN",
               "points": null,
               "projection": 16.19062605,
+              "scoringPeriodId": 2
+            },
+            {
+              "id": 4373626,
+              "name": "Tyler Allgeier",
+              "proTeamId": 22,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 7.0419723,
               "scoringPeriodId": 2
             }
           ],
