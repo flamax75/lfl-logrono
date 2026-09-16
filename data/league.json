@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-16T12:10:37.414887+00:00",
+  "updatedAt": "2026-09-16T16:52:06.931361+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -184,8 +184,8 @@
           "proTeamId": 12,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 2.63346621,
           "scoringPeriodId": 2
@@ -208,8 +208,8 @@
           "proTeamId": 25,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 16,
+          "slot": "D/ST",
           "points": null,
           "projection": 2.50536564,
           "scoringPeriodId": 2
@@ -290,8 +290,8 @@
           "proTeamId": 3,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 12.21733587,
           "scoringPeriodId": 2
@@ -374,8 +374,8 @@
           "proTeamId": 25,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 11.87441692,
           "scoringPeriodId": 2
@@ -2175,18 +2175,6 @@
           "scoringPeriodId": 2
         },
         {
-          "id": 4360569,
-          "name": "Jordan Mason",
-          "proTeamId": 16,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 9.97805705,
-          "scoringPeriodId": 2
-        },
-        {
           "id": 4686361,
           "name": "Cam Little",
           "proTeamId": 30,
@@ -2232,6 +2220,18 @@
           "slot": "BN",
           "points": null,
           "projection": 8.5930476,
+          "scoringPeriodId": 2
+        },
+        {
+          "id": 4696044,
+          "name": "Kaelon Black",
+          "proTeamId": 25,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 8.28672532,
           "scoringPeriodId": 2
         }
       ]
@@ -3351,7 +3351,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 2,
           "homePoints": 0.0,
-          "homeProjection": 114.73049323,
+          "homeProjection": 114.38757429,
           "homeRoster": [
             {
               "id": 4242335,
@@ -3407,8 +3407,8 @@
               "proTeamId": 3,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 12.21733587,
               "scoringPeriodId": 2
@@ -3491,8 +3491,8 @@
               "proTeamId": 25,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 11.87441692,
               "scoringPeriodId": 2
@@ -3535,7 +3535,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 114.73049323,
+          "homeLiveProjection": 114.38757429,
           "awayPoints": 0.0,
           "awayProjection": 115.19776983,
           "awayRoster": [
@@ -3660,18 +3660,6 @@
               "scoringPeriodId": 2
             },
             {
-              "id": 4360569,
-              "name": "Jordan Mason",
-              "proTeamId": 16,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 9.97805705,
-              "scoringPeriodId": 2
-            },
-            {
               "id": 4686361,
               "name": "Cam Little",
               "proTeamId": 30,
@@ -3717,6 +3705,18 @@
               "slot": "BN",
               "points": null,
               "projection": 8.5930476,
+              "scoringPeriodId": 2
+            },
+            {
+              "id": 4696044,
+              "name": "Kaelon Black",
+              "proTeamId": 25,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 8.28672532,
               "scoringPeriodId": 2
             }
           ],
@@ -4686,7 +4686,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 119.67576583,
           "awayPoints": 0.0,
-          "awayProjection": 121.65763277,
+          "awayProjection": 121.5295322,
           "awayRoster": [
             {
               "id": 4379399,
@@ -4838,8 +4838,8 @@
               "proTeamId": 12,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 2.63346621,
               "scoringPeriodId": 2
@@ -4862,15 +4862,15 @@
               "proTeamId": 25,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 16,
+              "slot": "D/ST",
               "points": null,
               "projection": 2.50536564,
               "scoringPeriodId": 2
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 121.65763277
+          "awayLiveProjection": 121.5295322
         }
       ]
     },
