@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-17T18:51:28.395205+00:00",
+  "updatedAt": "2026-09-17T21:48:58.946365+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -302,8 +302,8 @@
           "proTeamId": 17,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 9.25462995,
           "scoringPeriodId": 2
@@ -326,8 +326,8 @@
           "proTeamId": 9,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 11.02699316,
           "scoringPeriodId": 2
@@ -718,8 +718,8 @@
           "proTeamId": 23,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 11.13488715,
           "scoringPeriodId": 2
@@ -742,8 +742,8 @@
           "proTeamId": 22,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 9.8631469,
           "scoringPeriodId": 2
@@ -814,10 +814,22 @@
           "proTeamId": 16,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 6.96061901,
+          "scoringPeriodId": 2
+        },
+        {
+          "id": 4040761,
+          "name": "Devin Singletary",
+          "proTeamId": 19,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 6.75777304,
           "scoringPeriodId": 2
         }
       ]
@@ -2771,7 +2783,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 123.41325357,
           "awayPoints": 0.0,
-          "awayProjection": 97.79131297,
+          "awayProjection": 111.82872801,
           "awayRoster": [
             {
               "id": 4362628,
@@ -2851,8 +2863,8 @@
               "proTeamId": 23,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 11.13488715,
               "scoringPeriodId": 2
@@ -2875,8 +2887,8 @@
               "proTeamId": 22,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 9.8631469,
               "scoringPeriodId": 2
@@ -2947,15 +2959,27 @@
               "proTeamId": 16,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 6.96061901,
+              "scoringPeriodId": 2
+            },
+            {
+              "id": 4040761,
+              "name": "Devin Singletary",
+              "proTeamId": 19,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 6.75777304,
               "scoringPeriodId": 2
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 97.79131297
+          "awayLiveProjection": 111.82872801
         },
         {
           "id": 8,
@@ -3351,7 +3375,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 2,
           "homePoints": 0.0,
-          "homeProjection": 114.36254712,
+          "homeProjection": 112.59018391,
           "homeRoster": [
             {
               "id": 4242335,
@@ -3419,8 +3443,8 @@
               "proTeamId": 17,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 9.25462995,
               "scoringPeriodId": 2
@@ -3443,8 +3467,8 @@
               "proTeamId": 9,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 11.02699316,
               "scoringPeriodId": 2
@@ -3535,7 +3559,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 114.36254712,
+          "homeLiveProjection": 112.59018391,
           "awayPoints": 0.0,
           "awayProjection": 115.15899811,
           "awayRoster": [
