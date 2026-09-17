@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-17T05:24:17.272221+00:00",
+  "updatedAt": "2026-09-17T10:10:27.284744+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -167,18 +167,6 @@
           "scoringPeriodId": 2
         },
         {
-          "id": 4429059,
-          "name": "Woody Marks",
-          "proTeamId": 34,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 6.98478317,
-          "scoringPeriodId": 2
-        },
-        {
           "id": -16012,
           "name": "Chiefs D/ST",
           "proTeamId": 12,
@@ -212,6 +200,18 @@
           "slot": "D/ST",
           "points": null,
           "projection": 2.50536564,
+          "scoringPeriodId": 2
+        },
+        {
+          "id": 3128429,
+          "name": "Courtland Sutton",
+          "proTeamId": 7,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 11.87105053,
           "scoringPeriodId": 2
         }
       ]
@@ -516,8 +516,8 @@
           "proTeamId": 23,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 11.46327474,
           "scoringPeriodId": 2
@@ -528,8 +528,8 @@
           "proTeamId": 30,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 11.84618158,
           "scoringPeriodId": 2
@@ -3154,7 +3154,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 115.33965956,
           "awayPoints": 0.0,
-          "awayProjection": 119.29020369,
+          "awayProjection": 119.67311053,
           "awayRoster": [
             {
               "id": 4430807,
@@ -3234,8 +3234,8 @@
               "proTeamId": 23,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 11.46327474,
               "scoringPeriodId": 2
@@ -3246,8 +3246,8 @@
               "proTeamId": 30,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 11.84618158,
               "scoringPeriodId": 2
@@ -3338,7 +3338,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 119.29020369
+          "awayLiveProjection": 119.67311053
         },
         {
           "id": 9,
@@ -4821,18 +4821,6 @@
               "scoringPeriodId": 2
             },
             {
-              "id": 4429059,
-              "name": "Woody Marks",
-              "proTeamId": 34,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 6.98478317,
-              "scoringPeriodId": 2
-            },
-            {
               "id": -16012,
               "name": "Chiefs D/ST",
               "proTeamId": 12,
@@ -4866,6 +4854,18 @@
               "slot": "D/ST",
               "points": null,
               "projection": 2.50536564,
+              "scoringPeriodId": 2
+            },
+            {
+              "id": 3128429,
+              "name": "Courtland Sutton",
+              "proTeamId": 7,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 11.87105053,
               "scoringPeriodId": 2
             }
           ],
