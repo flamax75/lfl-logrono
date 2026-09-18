@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-18T06:33:56.303726+00:00",
+  "updatedAt": "2026-09-18T11:43:48.782604+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1795,18 +1795,6 @@
           "scoringPeriodId": 2
         },
         {
-          "id": 3054212,
-          "name": "Jonnu Smith",
-          "proTeamId": 9,
-          "positionId": 4,
-          "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 4.32524235,
-          "scoringPeriodId": 2
-        },
-        {
           "id": 17427,
           "name": "Cairo Santos",
           "proTeamId": 3,
@@ -1840,6 +1828,18 @@
           "slot": "BN",
           "points": null,
           "projection": 5.32546604,
+          "scoringPeriodId": 2
+        },
+        {
+          "id": 2977187,
+          "name": "Cooper Kupp",
+          "proTeamId": 26,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 6.89102315,
           "scoringPeriodId": 2
         }
       ]
@@ -3893,18 +3893,6 @@
               "scoringPeriodId": 2
             },
             {
-              "id": 3054212,
-              "name": "Jonnu Smith",
-              "proTeamId": 9,
-              "positionId": 4,
-              "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 4.32524235,
-              "scoringPeriodId": 2
-            },
-            {
               "id": 17427,
               "name": "Cairo Santos",
               "proTeamId": 3,
@@ -3938,6 +3926,18 @@
               "slot": "BN",
               "points": null,
               "projection": 5.32546604,
+              "scoringPeriodId": 2
+            },
+            {
+              "id": 2977187,
+              "name": "Cooper Kupp",
+              "proTeamId": 26,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 6.89102315,
               "scoringPeriodId": 2
             }
           ],
