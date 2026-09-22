@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-22T19:06:34.838229+00:00",
+  "updatedAt": "2026-09-22T22:02:03.120151+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -2914,7 +2914,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 119.07633756,
           "awayPoints": 0.0,
-          "awayProjection": 106.80697402,
+          "awayProjection": 122.33255269,
           "awayRoster": [
             {
               "id": 4374302,
@@ -3098,7 +3098,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 106.80697402
+          "awayLiveProjection": 122.33255269
         },
         {
           "id": 14,
@@ -3889,7 +3889,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 3,
           "homePoints": 0.0,
-          "homeProjection": 115.95901478,
+          "homeProjection": 130.09578165,
           "homeRoster": [
             {
               "id": 4429795,
@@ -4073,7 +4073,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 115.95901478,
+          "homeLiveProjection": 130.09578165,
           "awayPoints": 0.0,
           "awayProjection": 122.60387168,
           "awayRoster": [
