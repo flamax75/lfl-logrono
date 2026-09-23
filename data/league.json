@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-23T04:52:20.321647+00:00",
+  "updatedAt": "2026-09-23T09:35:21.445457+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -88,8 +88,8 @@
           "proTeamId": 28,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 3
@@ -172,8 +172,8 @@
           "proTeamId": 12,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 16,
+          "slot": "D/ST",
           "points": null,
           "projection": 7.89111289,
           "scoringPeriodId": 3
@@ -191,18 +191,6 @@
           "scoringPeriodId": 3
         },
         {
-          "id": -16025,
-          "name": "49ers D/ST",
-          "proTeamId": 25,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 7.47352495,
-          "scoringPeriodId": 3
-        },
-        {
           "id": 3128429,
           "name": "Courtland Sutton",
           "proTeamId": 7,
@@ -212,6 +200,18 @@
           "slot": "BN",
           "points": null,
           "projection": 10.87433585,
+          "scoringPeriodId": 3
+        },
+        {
+          "id": 4036378,
+          "name": "Jordan Love",
+          "proTeamId": 9,
+          "positionId": 1,
+          "position": "QB",
+          "slotId": 0,
+          "slot": "QB",
+          "points": null,
+          "projection": 16.80335536,
           "scoringPeriodId": 3
         }
       ]
@@ -773,18 +773,6 @@
           "scoringPeriodId": 3
         },
         {
-          "id": 3052587,
-          "name": "Baker Mayfield",
-          "proTeamId": 27,
-          "positionId": 1,
-          "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 15.02911933,
-          "scoringPeriodId": 3
-        },
-        {
           "id": 3117256,
           "name": "Dalton Schultz",
           "proTeamId": 34,
@@ -809,18 +797,6 @@
           "scoringPeriodId": 3
         },
         {
-          "id": 3886598,
-          "name": "Jauan Jennings",
-          "proTeamId": 16,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 6.1059308,
-          "scoringPeriodId": 3
-        },
-        {
           "id": 4040761,
           "name": "Devin Singletary",
           "proTeamId": 19,
@@ -830,6 +806,30 @@
           "slot": "BN",
           "points": null,
           "projection": 5.15107784,
+          "scoringPeriodId": 3
+        },
+        {
+          "id": 4360689,
+          "name": "Tyler Shough",
+          "proTeamId": 18,
+          "positionId": 1,
+          "position": "QB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 18.41723657,
+          "scoringPeriodId": 3
+        },
+        {
+          "id": 4429059,
+          "name": "Woody Marks",
+          "proTeamId": 34,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 8.47988987,
           "scoringPeriodId": 3
         }
       ]
@@ -1783,18 +1783,6 @@
           "scoringPeriodId": 3
         },
         {
-          "id": 4686658,
-          "name": "Mike Washington Jr.",
-          "proTeamId": 13,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 3.6673555,
-          "scoringPeriodId": 3
-        },
-        {
           "id": 17427,
           "name": "Cairo Santos",
           "proTeamId": 3,
@@ -1840,6 +1828,18 @@
           "slot": "BN",
           "points": null,
           "projection": 5.83443963,
+          "scoringPeriodId": 3
+        },
+        {
+          "id": 4832800,
+          "name": "Denzel Boston",
+          "proTeamId": 5,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 11.23205626,
           "scoringPeriodId": 3
         }
       ]
@@ -3246,18 +3246,6 @@
               "scoringPeriodId": 3
             },
             {
-              "id": 3052587,
-              "name": "Baker Mayfield",
-              "proTeamId": 27,
-              "positionId": 1,
-              "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 15.02911933,
-              "scoringPeriodId": 3
-            },
-            {
               "id": 3117256,
               "name": "Dalton Schultz",
               "proTeamId": 34,
@@ -3282,18 +3270,6 @@
               "scoringPeriodId": 3
             },
             {
-              "id": 3886598,
-              "name": "Jauan Jennings",
-              "proTeamId": 16,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 6.1059308,
-              "scoringPeriodId": 3
-            },
-            {
               "id": 4040761,
               "name": "Devin Singletary",
               "proTeamId": 19,
@@ -3303,6 +3279,30 @@
               "slot": "BN",
               "points": null,
               "projection": 5.15107784,
+              "scoringPeriodId": 3
+            },
+            {
+              "id": 4360689,
+              "name": "Tyler Shough",
+              "proTeamId": 18,
+              "positionId": 1,
+              "position": "QB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 18.41723657,
+              "scoringPeriodId": 3
+            },
+            {
+              "id": 4429059,
+              "name": "Woody Marks",
+              "proTeamId": 34,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 8.47988987,
               "scoringPeriodId": 3
             }
           ],
@@ -3815,18 +3815,6 @@
               "scoringPeriodId": 3
             },
             {
-              "id": 4686658,
-              "name": "Mike Washington Jr.",
-              "proTeamId": 13,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 3.6673555,
-              "scoringPeriodId": 3
-            },
-            {
               "id": 17427,
               "name": "Cairo Santos",
               "proTeamId": 3,
@@ -3872,6 +3860,18 @@
               "slot": "BN",
               "points": null,
               "projection": 5.83443963,
+              "scoringPeriodId": 3
+            },
+            {
+              "id": 4832800,
+              "name": "Denzel Boston",
+              "proTeamId": 5,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 11.23205626,
               "scoringPeriodId": 3
             }
           ],
@@ -4841,7 +4841,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 105.29579134,
           "awayPoints": 0.0,
-          "awayProjection": 110.29844151,
+          "awayProjection": 127.51938482,
           "awayRoster": [
             {
               "id": 4379399,
@@ -4897,8 +4897,8 @@
               "proTeamId": 28,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 3
@@ -4981,8 +4981,8 @@
               "proTeamId": 12,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 16,
+              "slot": "D/ST",
               "points": null,
               "projection": 7.89111289,
               "scoringPeriodId": 3
@@ -5000,18 +5000,6 @@
               "scoringPeriodId": 3
             },
             {
-              "id": -16025,
-              "name": "49ers D/ST",
-              "proTeamId": 25,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 7.47352495,
-              "scoringPeriodId": 3
-            },
-            {
               "id": 3128429,
               "name": "Courtland Sutton",
               "proTeamId": 7,
@@ -5022,10 +5010,22 @@
               "points": null,
               "projection": 10.87433585,
               "scoringPeriodId": 3
+            },
+            {
+              "id": 4036378,
+              "name": "Jordan Love",
+              "proTeamId": 9,
+              "positionId": 1,
+              "position": "QB",
+              "slotId": 0,
+              "slot": "QB",
+              "points": null,
+              "projection": 16.80335536,
+              "scoringPeriodId": 3
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 110.29844151
+          "awayLiveProjection": 127.51938482
         }
       ]
     },
