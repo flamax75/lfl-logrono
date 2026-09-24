@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-24T13:45:01.330094+00:00",
+  "updatedAt": "2026-09-24T17:59:02.832079+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1634,8 +1634,8 @@
           "proTeamId": 8,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 16,
+          "slot": "D/ST",
           "points": null,
           "projection": 7.56361903,
           "scoringPeriodId": 3
@@ -1646,8 +1646,8 @@
           "proTeamId": 27,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 6.58927969,
           "scoringPeriodId": 3
@@ -4087,7 +4087,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 130.09324686,
           "awayPoints": 0.0,
-          "awayProjection": 124.38004546,
+          "awayProjection": 125.35438481,
           "awayRoster": [
             {
               "id": 4241389,
@@ -4251,8 +4251,8 @@
               "proTeamId": 8,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 16,
+              "slot": "D/ST",
               "points": null,
               "projection": 7.56361903,
               "scoringPeriodId": 3
@@ -4263,15 +4263,15 @@
               "proTeamId": 27,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 6.58927969,
               "scoringPeriodId": 3
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 124.38004546
+          "awayLiveProjection": 125.35438481
         },
         {
           "id": 17,
