@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-09-27T10:53:21.745828+00:00",
+  "updatedAt": "2026-09-27T15:25:12.587088+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -754,8 +754,8 @@
           "proTeamId": 22,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 11.26475842,
           "scoringPeriodId": 3
@@ -838,8 +838,8 @@
           "proTeamId": 34,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 8.62827298,
           "scoringPeriodId": 3
@@ -944,8 +944,8 @@
           "proTeamId": 21,
           "positionId": 4,
           "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 21,
+          "slot": "IR",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 3
@@ -1056,6 +1056,18 @@
           "slot": "TE",
           "points": null,
           "projection": 8.62918684,
+          "scoringPeriodId": 3
+        },
+        {
+          "id": 4570037,
+          "name": "Terrance Ferguson",
+          "proTeamId": 14,
+          "positionId": 4,
+          "position": "TE",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 10.55152579,
           "scoringPeriodId": 3
         }
       ]
@@ -2002,8 +2014,8 @@
           "proTeamId": 14,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 15.26441316,
           "scoringPeriodId": 3
@@ -2014,8 +2026,8 @@
           "proTeamId": 8,
           "positionId": 1,
           "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 16.18202944,
           "scoringPeriodId": 3
@@ -3135,7 +3147,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 3,
           "homePoints": 0.0,
-          "homeProjection": 114.99991662,
+          "homeProjection": 112.36343119,
           "homeRoster": [
             {
               "id": 4362628,
@@ -3239,8 +3251,8 @@
               "proTeamId": 22,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 11.26475842,
               "scoringPeriodId": 3
@@ -3323,15 +3335,15 @@
               "proTeamId": 34,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 8.62827298,
               "scoringPeriodId": 3
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 114.99991662,
+          "homeLiveProjection": 112.36343119,
           "awayPoints": 28.4,
           "awayProjection": 131.54738214,
           "awayRoster": [
@@ -4296,7 +4308,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 3,
           "homePoints": 0.0,
-          "homeProjection": 123.00301382,
+          "homeProjection": 123.92063009,
           "homeRoster": [
             {
               "id": 4262921,
@@ -4412,8 +4424,8 @@
               "proTeamId": 14,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 15.26441316,
               "scoringPeriodId": 3
@@ -4424,8 +4436,8 @@
               "proTeamId": 8,
               "positionId": 1,
               "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 16.18202944,
               "scoringPeriodId": 3
@@ -4480,7 +4492,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 123.00301382,
+          "homeLiveProjection": 123.92063009,
           "awayPoints": 0.0,
           "awayProjection": 113.98055212,
           "awayRoster": [
@@ -4562,8 +4574,8 @@
               "proTeamId": 21,
               "positionId": 4,
               "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 21,
+              "slot": "IR",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 3
@@ -4674,6 +4686,18 @@
               "slot": "TE",
               "points": null,
               "projection": 8.62918684,
+              "scoringPeriodId": 3
+            },
+            {
+              "id": 4570037,
+              "name": "Terrance Ferguson",
+              "proTeamId": 14,
+              "positionId": 4,
+              "position": "TE",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 10.55152579,
               "scoringPeriodId": 3
             }
           ],
