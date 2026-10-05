@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-05T07:38:22.282837+00:00",
+  "updatedAt": "2026-10-05T16:22:09.536856+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -2126,6 +2126,18 @@
           "slot": "WR",
           "points": 8.3,
           "projection": 9.63969746,
+          "scoringPeriodId": 4
+        },
+        {
+          "id": 3116406,
+          "name": "Tyreek Hill",
+          "proTeamId": 0,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 21,
+          "slot": "IR",
+          "points": null,
+          "projection": null,
           "scoringPeriodId": 4
         }
       ]
@@ -5344,6 +5356,18 @@
               "slot": "WR",
               "points": 8.3,
               "projection": 9.63969746,
+              "scoringPeriodId": 4
+            },
+            {
+              "id": 3116406,
+              "name": "Tyreek Hill",
+              "proTeamId": 0,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 21,
+              "slot": "IR",
+              "points": null,
+              "projection": null,
               "scoringPeriodId": 4
             }
           ],
