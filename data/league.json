@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-08T16:54:19.182971+00:00",
+  "updatedAt": "2026-10-08T21:38:34.942880+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -88,8 +88,8 @@
           "proTeamId": 28,
           "positionId": 1,
           "position": "QB",
-          "slotId": 21,
-          "slot": "IR",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 19.99787071,
           "scoringPeriodId": 5
@@ -196,22 +196,10 @@
           "proTeamId": 26,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
-          "points": null,
-          "projection": 15.09261534,
-          "scoringPeriodId": 5
-        },
-        {
-          "id": 2576925,
-          "name": "Darren Waller",
-          "proTeamId": 29,
-          "positionId": 4,
-          "position": "TE",
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 0.0,
+          "projection": 15.09261534,
           "scoringPeriodId": 5
         },
         {
@@ -4517,7 +4505,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 127.21398128,
           "awayPoints": 0.0,
-          "awayProjection": 114.87572666,
+          "awayProjection": 119.78098203,
           "awayRoster": [
             {
               "id": 4379399,
@@ -4573,8 +4561,8 @@
               "proTeamId": 28,
               "positionId": 1,
               "position": "QB",
-              "slotId": 21,
-              "slot": "IR",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 19.99787071,
               "scoringPeriodId": 5
@@ -4681,22 +4669,10 @@
               "proTeamId": 26,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
-              "points": null,
-              "projection": 15.09261534,
-              "scoringPeriodId": 5
-            },
-            {
-              "id": 2576925,
-              "name": "Darren Waller",
-              "proTeamId": 29,
-              "positionId": 4,
-              "position": "TE",
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 0.0,
+              "projection": 15.09261534,
               "scoringPeriodId": 5
             },
             {
@@ -4725,7 +4701,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 114.87572666
+          "awayLiveProjection": 119.78098203
         },
         {
           "id": 29,
