@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-10T02:39:58.392183+00:00",
+  "updatedAt": "2026-10-10T08:59:18.266055+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -124,8 +124,8 @@
           "proTeamId": 28,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 5
@@ -160,8 +160,8 @@
           "proTeamId": 17,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 12.08241075,
           "scoringPeriodId": 5
@@ -2389,18 +2389,6 @@
           "scoringPeriodId": 5
         },
         {
-          "id": 4427366,
-          "name": "Breece Hall",
-          "proTeamId": 20,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 21,
-          "slot": "IR",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 5
-        },
-        {
           "id": 16800,
           "name": "Davante Adams",
           "proTeamId": 14,
@@ -2566,6 +2554,18 @@
           "slot": "K",
           "points": null,
           "projection": 12.12949778,
+          "scoringPeriodId": 5
+        },
+        {
+          "id": 4241985,
+          "name": "J.K. Dobbins",
+          "proTeamId": 7,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 10.54004305,
           "scoringPeriodId": 5
         }
       ]
@@ -4493,7 +4493,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 127.56406731,
           "awayPoints": 5.1,
-          "awayProjection": 100.58239291,
+          "awayProjection": 112.66480366,
           "awayRoster": [
             {
               "id": 4379399,
@@ -4585,8 +4585,8 @@
               "proTeamId": 28,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 5
@@ -4621,8 +4621,8 @@
               "proTeamId": 17,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 12.08241075,
               "scoringPeriodId": 5
@@ -4689,7 +4689,7 @@
             }
           ],
           "awayLivePoints": 5.1,
-          "awayLiveProjection": 100.58239291
+          "awayLiveProjection": 112.66480366
         },
         {
           "id": 29,
@@ -4939,18 +4939,6 @@
               "scoringPeriodId": 5
             },
             {
-              "id": 4427366,
-              "name": "Breece Hall",
-              "proTeamId": 20,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 21,
-              "slot": "IR",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 5
-            },
-            {
               "id": 16800,
               "name": "Davante Adams",
               "proTeamId": 14,
@@ -5116,6 +5104,18 @@
               "slot": "K",
               "points": null,
               "projection": 12.12949778,
+              "scoringPeriodId": 5
+            },
+            {
+              "id": 4241985,
+              "name": "J.K. Dobbins",
+              "proTeamId": 7,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 10.54004305,
               "scoringPeriodId": 5
             }
           ],
