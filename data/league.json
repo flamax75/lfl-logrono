@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-11T01:13:19.753975+00:00",
+  "updatedAt": "2026-10-11T07:12:45.277818+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -2138,6 +2138,18 @@
           "slot": "IR",
           "points": null,
           "projection": null,
+          "scoringPeriodId": 5
+        },
+        {
+          "id": 4596334,
+          "name": "Keaton Mitchell",
+          "proTeamId": 24,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 7.68564115,
           "scoringPeriodId": 5
         }
       ]
@@ -5523,6 +5535,18 @@
               "slot": "IR",
               "points": null,
               "projection": null,
+              "scoringPeriodId": 5
+            },
+            {
+              "id": 4596334,
+              "name": "Keaton Mitchell",
+              "proTeamId": 24,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 7.68564115,
               "scoringPeriodId": 5
             }
           ],
