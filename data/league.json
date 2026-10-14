@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-13T22:56:01.415027+00:00",
+  "updatedAt": "2026-10-14T01:33:27.190638+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -359,7 +359,7 @@
         {
           "id": 4574716,
           "name": "Harrison Mevis",
-          "proTeamId": 14,
+          "proTeamId": 0,
           "positionId": 5,
           "position": "K",
           "slotId": 17,
@@ -4270,7 +4270,7 @@
             {
               "id": 4574716,
               "name": "Harrison Mevis",
-              "proTeamId": 14,
+              "proTeamId": 0,
               "positionId": 5,
               "position": "K",
               "slotId": 17,
