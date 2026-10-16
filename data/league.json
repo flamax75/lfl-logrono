@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-16T05:07:30.434385+00:00",
+  "updatedAt": "2026-10-16T09:42:50.359546+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1689,18 +1689,6 @@
           "scoringPeriodId": 6
         },
         {
-          "id": -16027,
-          "name": "Buccaneers D/ST",
-          "proTeamId": 27,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 6.69381217,
-          "scoringPeriodId": 6
-        },
-        {
           "id": 3128429,
           "name": "Courtland Sutton",
           "proTeamId": 7,
@@ -1710,6 +1698,18 @@
           "slot": "BN",
           "points": 3.9,
           "projection": 8.6069972,
+          "scoringPeriodId": 6
+        },
+        {
+          "id": -16014,
+          "name": "Rams D/ST",
+          "proTeamId": 14,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 7.73427505,
           "scoringPeriodId": 6
         }
       ]
@@ -3439,7 +3439,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 78.93621461,
           "awayPoints": 0.0,
-          "awayProjection": 137.76327197,
+          "awayProjection": 138.80373484,
           "awayRoster": [
             {
               "id": 4241389,
@@ -3598,18 +3598,6 @@
               "scoringPeriodId": 6
             },
             {
-              "id": -16027,
-              "name": "Buccaneers D/ST",
-              "proTeamId": 27,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 6.69381217,
-              "scoringPeriodId": 6
-            },
-            {
               "id": 3128429,
               "name": "Courtland Sutton",
               "proTeamId": 7,
@@ -3620,10 +3608,22 @@
               "points": 3.9,
               "projection": 8.6069972,
               "scoringPeriodId": 6
+            },
+            {
+              "id": -16014,
+              "name": "Rams D/ST",
+              "proTeamId": 14,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 7.73427505,
+              "scoringPeriodId": 6
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 137.76327197
+          "awayLiveProjection": 138.80373484
         },
         {
           "id": 32,
