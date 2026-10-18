@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-18T09:26:41.781584+00:00",
+  "updatedAt": "2026-10-18T13:24:53.368109+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -381,25 +381,13 @@
           "scoringPeriodId": 6
         },
         {
-          "id": 3126486,
-          "name": "Deebo Samuel Sr.",
-          "proTeamId": 25,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 6
-        },
-        {
           "id": 4432577,
           "name": "C.J. Stroud",
           "proTeamId": 34,
           "positionId": 1,
           "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 13.59248561,
           "scoringPeriodId": 6
@@ -410,8 +398,8 @@
           "proTeamId": 29,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 17.78156985,
           "scoringPeriodId": 6
@@ -438,6 +426,18 @@
           "slot": "BN",
           "points": null,
           "projection": 14.28257769,
+          "scoringPeriodId": 6
+        },
+        {
+          "id": 2573401,
+          "name": "Tyler Higbee",
+          "proTeamId": 14,
+          "positionId": 4,
+          "position": "TE",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 7.15960295,
           "scoringPeriodId": 6
         }
       ]
@@ -874,8 +874,8 @@
           "proTeamId": 21,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 3.43818336,
           "scoringPeriodId": 6
@@ -886,8 +886,8 @@
           "proTeamId": 21,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 12.18410954,
           "scoringPeriodId": 6
@@ -4313,7 +4313,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 139.30057581,
           "awayPoints": 5.2,
-          "awayProjection": 107.65479635,
+          "awayProjection": 103.46571211,
           "awayRoster": [
             {
               "id": 4242335,
@@ -4436,25 +4436,13 @@
               "scoringPeriodId": 6
             },
             {
-              "id": 3126486,
-              "name": "Deebo Samuel Sr.",
-              "proTeamId": 25,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 6
-            },
-            {
               "id": 4432577,
               "name": "C.J. Stroud",
               "proTeamId": 34,
               "positionId": 1,
               "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 13.59248561,
               "scoringPeriodId": 6
@@ -4465,8 +4453,8 @@
               "proTeamId": 29,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 17.78156985,
               "scoringPeriodId": 6
@@ -4494,10 +4482,22 @@
               "points": null,
               "projection": 14.28257769,
               "scoringPeriodId": 6
+            },
+            {
+              "id": 2573401,
+              "name": "Tyler Higbee",
+              "proTeamId": 14,
+              "positionId": 4,
+              "position": "TE",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 7.15960295,
+              "scoringPeriodId": 6
             }
           ],
           "awayLivePoints": 5.2,
-          "awayLiveProjection": 107.65479635
+          "awayLiveProjection": 103.46571211
         },
         {
           "id": 34,
@@ -5139,7 +5139,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 111.88730176,
           "awayPoints": 0.0,
-          "awayProjection": 105.64345351,
+          "awayProjection": 114.38937969,
           "awayRoster": [
             {
               "id": 4362628,
@@ -5327,8 +5327,8 @@
               "proTeamId": 21,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 3.43818336,
               "scoringPeriodId": 6
@@ -5339,15 +5339,15 @@
               "proTeamId": 21,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 12.18410954,
               "scoringPeriodId": 6
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 105.64345351
+          "awayLiveProjection": 114.38937969
         },
         {
           "id": 36,
