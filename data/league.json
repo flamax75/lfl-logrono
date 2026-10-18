@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-18T05:00:55.813208+00:00",
+  "updatedAt": "2026-10-18T09:26:41.781584+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1610,8 +1610,8 @@
           "proTeamId": 5,
           "positionId": 4,
           "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 6,
+          "slot": "TE",
           "points": null,
           "projection": 10.18349609,
           "scoringPeriodId": 6
@@ -1682,8 +1682,8 @@
           "proTeamId": 2,
           "positionId": 4,
           "position": "TE",
-          "slotId": 6,
-          "slot": "TE",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 8.04102935,
           "scoringPeriodId": 6
@@ -3499,7 +3499,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 91.46093503,
           "awayPoints": 0.0,
-          "awayProjection": 138.77892463,
+          "awayProjection": 140.92139137,
           "awayRoster": [
             {
               "id": 4241389,
@@ -3555,8 +3555,8 @@
               "proTeamId": 5,
               "positionId": 4,
               "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 6,
+              "slot": "TE",
               "points": null,
               "projection": 10.18349609,
               "scoringPeriodId": 6
@@ -3627,8 +3627,8 @@
               "proTeamId": 2,
               "positionId": 4,
               "position": "TE",
-              "slotId": 6,
-              "slot": "TE",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 8.04102935,
               "scoringPeriodId": 6
@@ -3683,7 +3683,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 138.77892463
+          "awayLiveProjection": 140.92139137
         },
         {
           "id": 32,
