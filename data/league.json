@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-21T06:06:49.829052+00:00",
+  "updatedAt": "2026-10-21T11:40:23.597370+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -191,18 +191,6 @@
           "scoringPeriodId": 7
         },
         {
-          "id": 4635008,
-          "name": "Keon Coleman",
-          "proTeamId": 2,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 7
-        },
-        {
           "id": 4685261,
           "name": "Germie Bernard",
           "proTeamId": 23,
@@ -220,8 +208,8 @@
           "proTeamId": 12,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 7.61904083,
           "scoringPeriodId": 7
@@ -236,6 +224,30 @@
           "slot": "QB",
           "points": null,
           "projection": 18.97271799,
+          "scoringPeriodId": 7
+        },
+        {
+          "id": 3126486,
+          "name": "Deebo Samuel Sr.",
+          "proTeamId": 25,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 21,
+          "slot": "IR",
+          "points": null,
+          "projection": 0.0,
+          "scoringPeriodId": 7
+        },
+        {
+          "id": -16016,
+          "name": "Vikings D/ST",
+          "proTeamId": 16,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 8.4900073,
           "scoringPeriodId": 7
         }
       ]
@@ -398,8 +410,8 @@
           "proTeamId": 26,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 7.65456055,
           "scoringPeriodId": 7
@@ -410,22 +422,10 @@
           "proTeamId": 20,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 7.69162896,
-          "scoringPeriodId": 7
-        },
-        {
-          "id": 2573401,
-          "name": "Tyler Higbee",
-          "proTeamId": 14,
-          "positionId": 4,
-          "position": "TE",
-          "slotId": 6,
-          "slot": "TE",
-          "points": null,
-          "projection": 7.32187299,
           "scoringPeriodId": 7
         },
         {
@@ -438,6 +438,18 @@
           "slot": "K",
           "points": null,
           "projection": 12.26194196,
+          "scoringPeriodId": 7
+        },
+        {
+          "id": 4429086,
+          "name": "Michael Mayer",
+          "proTeamId": 13,
+          "positionId": 4,
+          "position": "TE",
+          "slotId": 6,
+          "slot": "TE",
+          "points": null,
+          "projection": 8.37828666,
           "scoringPeriodId": 7
         }
       ]
@@ -1408,8 +1420,8 @@
           "proTeamId": 4,
           "positionId": 1,
           "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 18.95707246,
           "scoringPeriodId": 7
@@ -1420,8 +1432,8 @@
           "proTeamId": 8,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 10.71974132,
           "scoringPeriodId": 7
@@ -1516,22 +1528,22 @@
           "proTeamId": 3,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 5.25893008,
           "scoringPeriodId": 7
         },
         {
-          "id": 2969939,
-          "name": "Jameis Winston",
+          "id": 4433970,
+          "name": "J.J. McCarthy",
           "proTeamId": 19,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
-          "projection": 0.0,
+          "projection": 15.77212346,
           "scoringPeriodId": 7
         }
       ]
@@ -1706,8 +1718,8 @@
           "proTeamId": 8,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 6.37855749,
           "scoringPeriodId": 7
@@ -1725,15 +1737,15 @@
           "scoringPeriodId": 7
         },
         {
-          "id": -16014,
-          "name": "Rams D/ST",
-          "proTeamId": 14,
+          "id": -16029,
+          "name": "Panthers D/ST",
+          "proTeamId": 29,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 16,
+          "slot": "D/ST",
           "points": null,
-          "projection": 6.22031315,
+          "projection": 7.31699336,
           "scoringPeriodId": 7
         }
       ]
@@ -2324,8 +2336,8 @@
           "proTeamId": 30,
           "positionId": 5,
           "position": "K",
-          "slotId": 17,
-          "slot": "K",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 7
@@ -2367,27 +2379,27 @@
           "scoringPeriodId": 7
         },
         {
-          "id": 4599739,
-          "name": "Kendre Miller",
-          "proTeamId": 18,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "id": 17372,
+          "name": "Chris Boswell",
+          "proTeamId": 23,
+          "positionId": 5,
+          "position": "K",
+          "slotId": 17,
+          "slot": "K",
           "points": null,
-          "projection": 9.14972588,
+          "projection": 14.43666996,
           "scoringPeriodId": 7
         },
         {
-          "id": -16017,
-          "name": "Patriots D/ST",
-          "proTeamId": 17,
+          "id": -16007,
+          "name": "Broncos D/ST",
+          "proTeamId": 7,
           "positionId": 16,
           "position": "D/ST",
           "slotId": 16,
           "slot": "D/ST",
           "points": null,
-          "projection": 5.972602,
+          "projection": 7.00893905,
           "scoringPeriodId": 7
         }
       ]
@@ -3839,7 +3851,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 7,
           "homePoints": 0.0,
-          "homeProjection": 129.91765251,
+          "homeProjection": 130.85608838,
           "homeRoster": [
             {
               "id": 4241389,
@@ -3991,8 +4003,8 @@
               "proTeamId": 8,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 6.37855749,
               "scoringPeriodId": 7
@@ -4010,22 +4022,22 @@
               "scoringPeriodId": 7
             },
             {
-              "id": -16014,
-              "name": "Rams D/ST",
-              "proTeamId": 14,
+              "id": -16029,
+              "name": "Panthers D/ST",
+              "proTeamId": 29,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 16,
+              "slot": "D/ST",
               "points": null,
-              "projection": 6.22031315,
+              "projection": 7.31699336,
               "scoringPeriodId": 7
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 129.91765251,
+          "homeLiveProjection": 130.85608838,
           "awayPoints": 0.0,
-          "awayProjection": 132.840085,
+          "awayProjection": 133.71105147,
           "awayRoster": [
             {
               "id": 4379399,
@@ -4184,18 +4196,6 @@
               "scoringPeriodId": 7
             },
             {
-              "id": 4635008,
-              "name": "Keon Coleman",
-              "proTeamId": 2,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 7
-            },
-            {
               "id": 4685261,
               "name": "Germie Bernard",
               "proTeamId": 23,
@@ -4213,8 +4213,8 @@
               "proTeamId": 12,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 7.61904083,
               "scoringPeriodId": 7
@@ -4230,10 +4230,34 @@
               "points": null,
               "projection": 18.97271799,
               "scoringPeriodId": 7
+            },
+            {
+              "id": 3126486,
+              "name": "Deebo Samuel Sr.",
+              "proTeamId": 25,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 21,
+              "slot": "IR",
+              "points": null,
+              "projection": 0.0,
+              "scoringPeriodId": 7
+            },
+            {
+              "id": -16016,
+              "name": "Vikings D/ST",
+              "proTeamId": 16,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 8.4900073,
+              "scoringPeriodId": 7
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 132.840085
+          "awayLiveProjection": 133.71105147
         },
         {
           "id": 39,
@@ -4665,7 +4689,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 7,
           "homePoints": 0.0,
-          "homeProjection": 116.73350379,
+          "homeProjection": 117.82698586,
           "homeRoster": [
             {
               "id": 4242335,
@@ -4805,8 +4829,8 @@
               "proTeamId": 26,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 7.65456055,
               "scoringPeriodId": 7
@@ -4817,22 +4841,10 @@
               "proTeamId": 20,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 7.69162896,
-              "scoringPeriodId": 7
-            },
-            {
-              "id": 2573401,
-              "name": "Tyler Higbee",
-              "proTeamId": 14,
-              "positionId": 4,
-              "position": "TE",
-              "slotId": 6,
-              "slot": "TE",
-              "points": null,
-              "projection": 7.32187299,
               "scoringPeriodId": 7
             },
             {
@@ -4846,10 +4858,22 @@
               "points": null,
               "projection": 12.26194196,
               "scoringPeriodId": 7
+            },
+            {
+              "id": 4429086,
+              "name": "Michael Mayer",
+              "proTeamId": 13,
+              "positionId": 4,
+              "position": "TE",
+              "slotId": 6,
+              "slot": "TE",
+              "points": null,
+              "projection": 8.37828666,
+              "scoringPeriodId": 7
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 116.73350379,
+          "homeLiveProjection": 117.82698586,
           "awayPoints": 0.0,
           "awayProjection": 125.18554914,
           "awayRoster": [
@@ -5084,7 +5108,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 7,
           "homePoints": 0.0,
-          "homeProjection": 90.15773746,
+          "homeProjection": 114.57562116,
           "homeRoster": [
             {
               "id": 4430878,
@@ -5140,8 +5164,8 @@
               "proTeamId": 4,
               "positionId": 1,
               "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 18.95707246,
               "scoringPeriodId": 7
@@ -5152,8 +5176,8 @@
               "proTeamId": 8,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 10.71974132,
               "scoringPeriodId": 7
@@ -5248,29 +5272,29 @@
               "proTeamId": 3,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 5.25893008,
               "scoringPeriodId": 7
             },
             {
-              "id": 2969939,
-              "name": "Jameis Winston",
+              "id": 4433970,
+              "name": "J.J. McCarthy",
               "proTeamId": 19,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
-              "projection": 0.0,
+              "projection": 15.77212346,
               "scoringPeriodId": 7
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 90.15773746,
+          "homeLiveProjection": 114.57562116,
           "awayPoints": 0.0,
-          "awayProjection": 126.165258,
+          "awayProjection": 141.63826501,
           "awayRoster": [
             {
               "id": 4429795,
@@ -5386,8 +5410,8 @@
               "proTeamId": 30,
               "positionId": 5,
               "position": "K",
-              "slotId": 17,
-              "slot": "K",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 7
@@ -5429,32 +5453,32 @@
               "scoringPeriodId": 7
             },
             {
-              "id": 4599739,
-              "name": "Kendre Miller",
-              "proTeamId": 18,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "id": 17372,
+              "name": "Chris Boswell",
+              "proTeamId": 23,
+              "positionId": 5,
+              "position": "K",
+              "slotId": 17,
+              "slot": "K",
               "points": null,
-              "projection": 9.14972588,
+              "projection": 14.43666996,
               "scoringPeriodId": 7
             },
             {
-              "id": -16017,
-              "name": "Patriots D/ST",
-              "proTeamId": 17,
+              "id": -16007,
+              "name": "Broncos D/ST",
+              "proTeamId": 7,
               "positionId": 16,
               "position": "D/ST",
               "slotId": 16,
               "slot": "D/ST",
               "points": null,
-              "projection": 5.972602,
+              "projection": 7.00893905,
               "scoringPeriodId": 7
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 126.165258
+          "awayLiveProjection": 141.63826501
         },
         {
           "id": 42,
