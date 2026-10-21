@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-21T11:40:23.597370+00:00",
+  "updatedAt": "2026-10-21T16:06:20.209603+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -345,18 +345,6 @@
           "scoringPeriodId": 7
         },
         {
-          "id": 4429023,
-          "name": "MarShawn Lloyd",
-          "proTeamId": 9,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 3.13619432,
-          "scoringPeriodId": 7
-        },
-        {
           "id": 4036133,
           "name": "T.J. Hockenson",
           "proTeamId": 16,
@@ -450,6 +438,18 @@
           "slot": "TE",
           "points": null,
           "projection": 8.37828666,
+          "scoringPeriodId": 7
+        },
+        {
+          "id": 4035538,
+          "name": "David Montgomery",
+          "proTeamId": 34,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 13.16271515,
           "scoringPeriodId": 7
         }
       ]
@@ -4764,18 +4764,6 @@
               "scoringPeriodId": 7
             },
             {
-              "id": 4429023,
-              "name": "MarShawn Lloyd",
-              "proTeamId": 9,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 3.13619432,
-              "scoringPeriodId": 7
-            },
-            {
               "id": 4036133,
               "name": "T.J. Hockenson",
               "proTeamId": 16,
@@ -4869,6 +4857,18 @@
               "slot": "TE",
               "points": null,
               "projection": 8.37828666,
+              "scoringPeriodId": 7
+            },
+            {
+              "id": 4035538,
+              "name": "David Montgomery",
+              "proTeamId": 34,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 13.16271515,
               "scoringPeriodId": 7
             }
           ],
