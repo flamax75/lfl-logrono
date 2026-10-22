@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-22T06:32:00.206842+00:00",
+  "updatedAt": "2026-10-22T12:17:44.733978+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -492,8 +492,8 @@
           "proTeamId": 24,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 7
@@ -504,8 +504,8 @@
           "proTeamId": 3,
           "positionId": 4,
           "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 6,
+          "slot": "TE",
           "points": null,
           "projection": 11.49212432,
           "scoringPeriodId": 7
@@ -516,8 +516,8 @@
           "proTeamId": 5,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 13.16367271,
           "scoringPeriodId": 7
@@ -528,8 +528,8 @@
           "proTeamId": 2,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 7
@@ -552,8 +552,8 @@
           "proTeamId": 30,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 7
@@ -564,8 +564,8 @@
           "proTeamId": 12,
           "positionId": 4,
           "position": "TE",
-          "slotId": 6,
-          "slot": "TE",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 10.03039842,
           "scoringPeriodId": 7
@@ -600,8 +600,8 @@
           "proTeamId": 5,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 8.78918997,
           "scoringPeriodId": 7
@@ -648,8 +648,8 @@
           "proTeamId": 11,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 8.87550458,
           "scoringPeriodId": 7
@@ -5701,7 +5701,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 97.42365528,
           "awayPoints": 0.0,
-          "awayProjection": 72.44881865,
+          "awayProjection": 104.73891181,
           "awayRoster": [
             {
               "id": 4430807,
@@ -5721,8 +5721,8 @@
               "proTeamId": 24,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 7
@@ -5733,8 +5733,8 @@
               "proTeamId": 3,
               "positionId": 4,
               "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 6,
+              "slot": "TE",
               "points": null,
               "projection": 11.49212432,
               "scoringPeriodId": 7
@@ -5745,8 +5745,8 @@
               "proTeamId": 5,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 13.16367271,
               "scoringPeriodId": 7
@@ -5757,8 +5757,8 @@
               "proTeamId": 2,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 7
@@ -5781,8 +5781,8 @@
               "proTeamId": 30,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 7
@@ -5793,8 +5793,8 @@
               "proTeamId": 12,
               "positionId": 4,
               "position": "TE",
-              "slotId": 6,
-              "slot": "TE",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 10.03039842,
               "scoringPeriodId": 7
@@ -5829,8 +5829,8 @@
               "proTeamId": 5,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 8.78918997,
               "scoringPeriodId": 7
@@ -5877,8 +5877,8 @@
               "proTeamId": 11,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 8.87550458,
               "scoringPeriodId": 7
@@ -5909,7 +5909,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 72.44881865
+          "awayLiveProjection": 104.73891181
         }
       ]
     },
