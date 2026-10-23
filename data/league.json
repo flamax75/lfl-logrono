@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-23T06:36:18.814035+00:00",
+  "updatedAt": "2026-10-23T12:02:38.452403+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -2485,18 +2485,6 @@
           "scoringPeriodId": 7
         },
         {
-          "id": -16026,
-          "name": "Seahawks D/ST",
-          "proTeamId": 26,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 6.08137307,
-          "scoringPeriodId": 7
-        },
-        {
           "id": 3046439,
           "name": "Hunter Henry",
           "proTeamId": 17,
@@ -2590,6 +2578,18 @@
           "slot": "WR",
           "points": null,
           "projection": 10.09863319,
+          "scoringPeriodId": 7
+        },
+        {
+          "id": -16010,
+          "name": "Titans D/ST",
+          "proTeamId": 10,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 7.73006931,
           "scoringPeriodId": 7
         }
       ]
@@ -4408,7 +4408,7 @@
           "homeLivePoints": 21.2,
           "homeLiveProjection": 76.03965642,
           "awayPoints": 0.0,
-          "awayProjection": 117.43297916,
+          "awayProjection": 119.08167541,
           "awayRoster": [
             {
               "id": 3117251,
@@ -4507,18 +4507,6 @@
               "scoringPeriodId": 7
             },
             {
-              "id": -16026,
-              "name": "Seahawks D/ST",
-              "proTeamId": 26,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 6.08137307,
-              "scoringPeriodId": 7
-            },
-            {
               "id": 3046439,
               "name": "Hunter Henry",
               "proTeamId": 17,
@@ -4613,10 +4601,22 @@
               "points": null,
               "projection": 10.09863319,
               "scoringPeriodId": 7
+            },
+            {
+              "id": -16010,
+              "name": "Titans D/ST",
+              "proTeamId": 10,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 7.73006931,
+              "scoringPeriodId": 7
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 117.43297916
+          "awayLiveProjection": 119.08167541
         },
         {
           "id": 40,
