@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-24T06:22:14.821568+00:00",
+  "updatedAt": "2026-10-24T11:18:19.552687+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -338,8 +338,8 @@
           "proTeamId": 16,
           "positionId": 4,
           "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 6,
+          "slot": "TE",
           "points": null,
           "projection": 10.49756706,
           "scoringPeriodId": 7
@@ -422,8 +422,8 @@
           "proTeamId": 13,
           "positionId": 4,
           "position": "TE",
-          "slotId": 6,
-          "slot": "TE",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 8.3668033,
           "scoringPeriodId": 7
@@ -4629,7 +4629,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 7,
           "homePoints": 0.0,
-          "homeProjection": 119.66624928,
+          "homeProjection": 121.79701304,
           "homeRoster": [
             {
               "id": 4242335,
@@ -4697,8 +4697,8 @@
               "proTeamId": 16,
               "positionId": 4,
               "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 6,
+              "slot": "TE",
               "points": null,
               "projection": 10.49756706,
               "scoringPeriodId": 7
@@ -4781,8 +4781,8 @@
               "proTeamId": 13,
               "positionId": 4,
               "position": "TE",
-              "slotId": 6,
-              "slot": "TE",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 8.3668033,
               "scoringPeriodId": 7
@@ -4813,7 +4813,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 119.66624928,
+          "homeLiveProjection": 121.79701304,
           "awayPoints": 46.2,
           "awayProjection": 130.85859192,
           "awayRoster": [
