@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-24T23:54:34.011098+00:00",
+  "updatedAt": "2026-10-25T02:24:18.016440+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1879,18 +1879,6 @@
           "scoringPeriodId": 7
         },
         {
-          "id": 4430968,
-          "name": "Kimani Vidal",
-          "proTeamId": 24,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 7
-        },
-        {
           "id": -16019,
           "name": "Giants D/ST",
           "proTeamId": 19,
@@ -1915,15 +1903,27 @@
           "scoringPeriodId": 7
         },
         {
-          "id": 4722893,
-          "name": "Jaleel McLaughlin",
-          "proTeamId": 5,
+          "id": 4870808,
+          "name": "Jeremiyah Love",
+          "proTeamId": 22,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 0.0,
+          "scoringPeriodId": 7
+        },
+        {
+          "id": 4360569,
+          "name": "Jordan Mason",
+          "proTeamId": 16,
           "positionId": 2,
           "position": "RB",
           "slotId": 2,
           "slot": "RB",
           "points": null,
-          "projection": 0.0,
+          "projection": 10.16994464,
           "scoringPeriodId": 7
         }
       ]
@@ -4210,7 +4210,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 7,
           "homePoints": 21.2,
-          "homeProjection": 103.8708429,
+          "homeProjection": 114.04078754,
           "homeRoster": [
             {
               "id": 3929630,
@@ -4357,18 +4357,6 @@
               "scoringPeriodId": 7
             },
             {
-              "id": 4430968,
-              "name": "Kimani Vidal",
-              "proTeamId": 24,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 7
-            },
-            {
               "id": -16019,
               "name": "Giants D/ST",
               "proTeamId": 19,
@@ -4393,20 +4381,32 @@
               "scoringPeriodId": 7
             },
             {
-              "id": 4722893,
-              "name": "Jaleel McLaughlin",
-              "proTeamId": 5,
+              "id": 4870808,
+              "name": "Jeremiyah Love",
+              "proTeamId": 22,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 0.0,
+              "scoringPeriodId": 7
+            },
+            {
+              "id": 4360569,
+              "name": "Jordan Mason",
+              "proTeamId": 16,
               "positionId": 2,
               "position": "RB",
               "slotId": 2,
               "slot": "RB",
               "points": null,
-              "projection": 0.0,
+              "projection": 10.16994464,
               "scoringPeriodId": 7
             }
           ],
           "homeLivePoints": 21.2,
-          "homeLiveProjection": 103.8708429,
+          "homeLiveProjection": 114.04078754,
           "awayPoints": 0.0,
           "awayProjection": 118.1559757,
           "awayRoster": [
