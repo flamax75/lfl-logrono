@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-28T07:32:41.326213+00:00",
+  "updatedAt": "2026-10-28T14:24:01.947451+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -619,18 +619,6 @@
           "scoringPeriodId": 8
         },
         {
-          "id": -16003,
-          "name": "Bears D/ST",
-          "proTeamId": 3,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 7.31087551,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 15818,
           "name": "Keenan Allen",
           "proTeamId": 11,
@@ -655,15 +643,39 @@
           "scoringPeriodId": 8
         },
         {
-          "id": 2578570,
-          "name": "Jacoby Brissett",
-          "proTeamId": 22,
+          "id": 3917232,
+          "name": "Tyler Bass",
+          "proTeamId": 2,
+          "positionId": 5,
+          "position": "K",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 12.86783763,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": -16014,
+          "name": "Rams D/ST",
+          "proTeamId": 14,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 8.33901706,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 15864,
+          "name": "Geno Smith",
+          "proTeamId": 20,
           "positionId": 1,
           "position": "QB",
           "slotId": 0,
           "slot": "QB",
           "points": null,
-          "projection": 15.12764307,
+          "projection": 17.96957496,
           "scoringPeriodId": 8
         }
       ]
@@ -821,18 +833,6 @@
           "scoringPeriodId": 8
         },
         {
-          "id": 4241474,
-          "name": "Brian Robinson Jr.",
-          "proTeamId": 1,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 5.7543645,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 5082424,
           "name": "Dominic Zvada",
           "proTeamId": 19,
@@ -857,18 +857,6 @@
           "scoringPeriodId": 8
         },
         {
-          "id": -16025,
-          "name": "49ers D/ST",
-          "proTeamId": 25,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 4360238,
           "name": "Dameon Pierce",
           "proTeamId": 21,
@@ -878,6 +866,30 @@
           "slot": "BN",
           "points": null,
           "projection": 8.72165051,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": -16009,
+          "name": "Packers D/ST",
+          "proTeamId": 9,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 6.7906116,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 4612826,
+          "name": "Ladd McConkey",
+          "proTeamId": 24,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 10.28847069,
           "scoringPeriodId": 8
         }
       ]
@@ -956,8 +968,8 @@
           "proTeamId": 17,
           "positionId": 1,
           "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 22.9194578,
           "scoringPeriodId": 8
@@ -992,8 +1004,8 @@
           "proTeamId": 25,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 8
@@ -1004,8 +1016,8 @@
           "proTeamId": 7,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 9.25355994,
           "scoringPeriodId": 8
@@ -1076,8 +1088,8 @@
           "proTeamId": 20,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 15.27770235,
           "scoringPeriodId": 8
@@ -1360,8 +1372,8 @@
           "proTeamId": 19,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 8
@@ -1415,18 +1427,6 @@
           "scoringPeriodId": 8
         },
         {
-          "id": -16034,
-          "name": "Texans D/ST",
-          "proTeamId": 34,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 4608686,
           "name": "Kyle Monangai",
           "proTeamId": 3,
@@ -1436,18 +1436,6 @@
           "slot": "BN",
           "points": null,
           "projection": 8.69373058,
-          "scoringPeriodId": 8
-        },
-        {
-          "id": 3929645,
-          "name": "Juwan Johnson",
-          "proTeamId": 18,
-          "positionId": 4,
-          "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 0.0,
           "scoringPeriodId": 8
         },
         {
@@ -1475,18 +1463,6 @@
           "scoringPeriodId": 8
         },
         {
-          "id": 2973405,
-          "name": "Kalif Raymond",
-          "proTeamId": 3,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 4.89164524,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 4433970,
           "name": "J.J. McCarthy",
           "proTeamId": 19,
@@ -1496,6 +1472,42 @@
           "slot": "BN",
           "points": null,
           "projection": 0.0,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 3116389,
+          "name": "Samaje Perine",
+          "proTeamId": 4,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 2,
+          "slot": "RB",
+          "points": null,
+          "projection": 7.22052841,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": -16026,
+          "name": "Seahawks D/ST",
+          "proTeamId": 26,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 6.72790192,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 4723820,
+          "name": "Omar Cooper Jr.",
+          "proTeamId": 20,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 10.47378493,
           "scoringPeriodId": 8
         }
       ]
@@ -2578,6 +2590,18 @@
           "slot": "D/ST",
           "points": null,
           "projection": 5.28180773,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 4431299,
+          "name": "Rome Odunze",
+          "proTeamId": 3,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 9.23550579,
           "scoringPeriodId": 8
         }
       ]
@@ -4127,12 +4151,24 @@
               "points": null,
               "projection": 5.28180773,
               "scoringPeriodId": 8
+            },
+            {
+              "id": 4431299,
+              "name": "Rome Odunze",
+              "proTeamId": 3,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 9.23550579,
+              "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 0.0,
           "homeLiveProjection": 68.91733397,
           "awayPoints": 0.0,
-          "awayProjection": 89.88954379,
+          "awayProjection": 118.83314399,
           "awayRoster": [
             {
               "id": 4426515,
@@ -4188,8 +4224,8 @@
               "proTeamId": 17,
               "positionId": 1,
               "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 22.9194578,
               "scoringPeriodId": 8
@@ -4224,8 +4260,8 @@
               "proTeamId": 25,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 8
@@ -4236,8 +4272,8 @@
               "proTeamId": 7,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 9.25355994,
               "scoringPeriodId": 8
@@ -4308,8 +4344,8 @@
               "proTeamId": 20,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 15.27770235,
               "scoringPeriodId": 8
@@ -4328,7 +4364,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 89.88954379
+          "awayLiveProjection": 118.83314399
         },
         {
           "id": 45,
@@ -5155,7 +5191,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 0.0,
-          "homeProjection": 104.09922059,
+          "homeProjection": 107.96929403,
           "homeRoster": [
             {
               "id": 4430807,
@@ -5314,18 +5350,6 @@
               "scoringPeriodId": 8
             },
             {
-              "id": -16003,
-              "name": "Bears D/ST",
-              "proTeamId": 3,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 7.31087551,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 15818,
               "name": "Keenan Allen",
               "proTeamId": 11,
@@ -5350,20 +5374,44 @@
               "scoringPeriodId": 8
             },
             {
-              "id": 2578570,
-              "name": "Jacoby Brissett",
-              "proTeamId": 22,
+              "id": 3917232,
+              "name": "Tyler Bass",
+              "proTeamId": 2,
+              "positionId": 5,
+              "position": "K",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 12.86783763,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": -16014,
+              "name": "Rams D/ST",
+              "proTeamId": 14,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 8.33901706,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": 15864,
+              "name": "Geno Smith",
+              "proTeamId": 20,
               "positionId": 1,
               "position": "QB",
               "slotId": 0,
               "slot": "QB",
               "points": null,
-              "projection": 15.12764307,
+              "projection": 17.96957496,
               "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 104.09922059,
+          "homeLiveProjection": 107.96929403,
           "awayPoints": 0.0,
           "awayProjection": 104.79133917,
           "awayRoster": [
@@ -5562,7 +5610,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 0.0,
-          "homeProjection": 107.79376932,
+          "homeProjection": 114.58438092,
           "homeRoster": [
             {
               "id": 4362628,
@@ -5697,18 +5745,6 @@
               "scoringPeriodId": 8
             },
             {
-              "id": 4241474,
-              "name": "Brian Robinson Jr.",
-              "proTeamId": 1,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 5.7543645,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 5082424,
               "name": "Dominic Zvada",
               "proTeamId": 19,
@@ -5733,18 +5769,6 @@
               "scoringPeriodId": 8
             },
             {
-              "id": -16025,
-              "name": "49ers D/ST",
-              "proTeamId": 25,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 4360238,
               "name": "Dameon Pierce",
               "proTeamId": 21,
@@ -5755,12 +5779,36 @@
               "points": null,
               "projection": 8.72165051,
               "scoringPeriodId": 8
+            },
+            {
+              "id": -16009,
+              "name": "Packers D/ST",
+              "proTeamId": 9,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 6.7906116,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": 4612826,
+              "name": "Ladd McConkey",
+              "proTeamId": 24,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 10.28847069,
+              "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 107.79376932,
+          "homeLiveProjection": 114.58438092,
           "awayPoints": 0.0,
-          "awayProjection": 109.85144244,
+          "awayProjection": 123.79987278,
           "awayRoster": [
             {
               "id": 4430878,
@@ -5804,8 +5852,8 @@
               "proTeamId": 19,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 8
@@ -5859,18 +5907,6 @@
               "scoringPeriodId": 8
             },
             {
-              "id": -16034,
-              "name": "Texans D/ST",
-              "proTeamId": 34,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 4608686,
               "name": "Kyle Monangai",
               "proTeamId": 3,
@@ -5880,18 +5916,6 @@
               "slot": "BN",
               "points": null,
               "projection": 8.69373058,
-              "scoringPeriodId": 8
-            },
-            {
-              "id": 3929645,
-              "name": "Juwan Johnson",
-              "proTeamId": 18,
-              "positionId": 4,
-              "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 0.0,
               "scoringPeriodId": 8
             },
             {
@@ -5919,18 +5943,6 @@
               "scoringPeriodId": 8
             },
             {
-              "id": 2973405,
-              "name": "Kalif Raymond",
-              "proTeamId": 3,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 4.89164524,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 4433970,
               "name": "J.J. McCarthy",
               "proTeamId": 19,
@@ -5941,10 +5953,46 @@
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 8
+            },
+            {
+              "id": 3116389,
+              "name": "Samaje Perine",
+              "proTeamId": 4,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 2,
+              "slot": "RB",
+              "points": null,
+              "projection": 7.22052841,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": -16026,
+              "name": "Seahawks D/ST",
+              "proTeamId": 26,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 6.72790192,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": 4723820,
+              "name": "Omar Cooper Jr.",
+              "proTeamId": 20,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 10.47378493,
+              "scoringPeriodId": 8
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 109.85144244
+          "awayLiveProjection": 123.79987278
         }
       ]
     },
