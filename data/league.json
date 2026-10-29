@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-29T08:56:54.414357+00:00",
+  "updatedAt": "2026-10-29T15:50:08.020846+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -600,8 +600,8 @@
           "proTeamId": 25,
           "positionId": 5,
           "position": "K",
-          "slotId": 17,
-          "slot": "K",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 8
@@ -631,25 +631,13 @@
           "scoringPeriodId": 8
         },
         {
-          "id": 5083315,
-          "name": "Kenyon Sadiq",
-          "proTeamId": 20,
-          "positionId": 4,
-          "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 4.85569423,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 3917232,
           "name": "Tyler Bass",
           "proTeamId": 2,
           "positionId": 5,
           "position": "K",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 17,
+          "slot": "K",
           "points": null,
           "projection": 12.86783763,
           "scoringPeriodId": 8
@@ -676,6 +664,18 @@
           "slot": "QB",
           "points": null,
           "projection": 17.96957496,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 5083754,
+          "name": "Ryan Flournoy",
+          "proTeamId": 6,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 8.99977134,
           "scoringPeriodId": 8
         }
       ]
@@ -833,18 +833,6 @@
           "scoringPeriodId": 8
         },
         {
-          "id": 5082424,
-          "name": "Dominic Zvada",
-          "proTeamId": 19,
-          "positionId": 5,
-          "position": "K",
-          "slotId": 17,
-          "slot": "K",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 8439,
           "name": "Aaron Rodgers",
           "proTeamId": 23,
@@ -854,18 +842,6 @@
           "slot": "QB",
           "points": null,
           "projection": 14.65611263,
-          "scoringPeriodId": 8
-        },
-        {
-          "id": 4360238,
-          "name": "Dameon Pierce",
-          "proTeamId": 21,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 0.0,
           "scoringPeriodId": 8
         },
         {
@@ -890,6 +866,30 @@
           "slot": "BN",
           "points": null,
           "projection": 10.28847069,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 3124679,
+          "name": "Jason Sanders",
+          "proTeamId": 20,
+          "positionId": 5,
+          "position": "K",
+          "slotId": 17,
+          "slot": "K",
+          "points": null,
+          "projection": 11.84720113,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 4635008,
+          "name": "Keon Coleman",
+          "proTeamId": 2,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 6.61532841,
           "scoringPeriodId": 8
         }
       ]
@@ -5191,7 +5191,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 0.0,
-          "homeProjection": 107.9869,
+          "homeProjection": 120.85473764,
           "homeRoster": [
             {
               "id": 4430807,
@@ -5331,8 +5331,8 @@
               "proTeamId": 25,
               "positionId": 5,
               "position": "K",
-              "slotId": 17,
-              "slot": "K",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 8
@@ -5362,25 +5362,13 @@
               "scoringPeriodId": 8
             },
             {
-              "id": 5083315,
-              "name": "Kenyon Sadiq",
-              "proTeamId": 20,
-              "positionId": 4,
-              "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 4.85569423,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 3917232,
               "name": "Tyler Bass",
               "proTeamId": 2,
               "positionId": 5,
               "position": "K",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 17,
+              "slot": "K",
               "points": null,
               "projection": 12.86783763,
               "scoringPeriodId": 8
@@ -5408,10 +5396,22 @@
               "points": null,
               "projection": 17.96957496,
               "scoringPeriodId": 8
+            },
+            {
+              "id": 5083754,
+              "name": "Ryan Flournoy",
+              "proTeamId": 6,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 8.99977134,
+              "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 107.9869,
+          "homeLiveProjection": 120.85473764,
           "awayPoints": 0.0,
           "awayProjection": 121.24640827,
           "awayRoster": [
@@ -5610,7 +5610,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 0.0,
-          "homeProjection": 114.45971525,
+          "homeProjection": 126.30691638,
           "homeRoster": [
             {
               "id": 4362628,
@@ -5745,18 +5745,6 @@
               "scoringPeriodId": 8
             },
             {
-              "id": 5082424,
-              "name": "Dominic Zvada",
-              "proTeamId": 19,
-              "positionId": 5,
-              "position": "K",
-              "slotId": 17,
-              "slot": "K",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 8439,
               "name": "Aaron Rodgers",
               "proTeamId": 23,
@@ -5766,18 +5754,6 @@
               "slot": "QB",
               "points": null,
               "projection": 14.65611263,
-              "scoringPeriodId": 8
-            },
-            {
-              "id": 4360238,
-              "name": "Dameon Pierce",
-              "proTeamId": 21,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 0.0,
               "scoringPeriodId": 8
             },
             {
@@ -5803,10 +5779,34 @@
               "points": null,
               "projection": 10.28847069,
               "scoringPeriodId": 8
+            },
+            {
+              "id": 3124679,
+              "name": "Jason Sanders",
+              "proTeamId": 20,
+              "positionId": 5,
+              "position": "K",
+              "slotId": 17,
+              "slot": "K",
+              "points": null,
+              "projection": 11.84720113,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": 4635008,
+              "name": "Keon Coleman",
+              "proTeamId": 2,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 6.61532841,
+              "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 114.45971525,
+          "homeLiveProjection": 126.30691638,
           "awayPoints": 0.0,
           "awayProjection": 123.78355929,
           "awayRoster": [
