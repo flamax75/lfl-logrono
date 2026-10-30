@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-30T06:05:30.542659+00:00",
+  "updatedAt": "2026-10-30T12:43:17.014554+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -452,7 +452,7 @@
       "wins": 2,
       "losses": 5,
       "ties": 0,
-      "pf": 662.6,
+      "pf": 661.6,
       "pa": 811.62,
       "percentage": 0.2857142857142857,
       "gamesBack": 4.0,
@@ -691,7 +691,7 @@
       "losses": 5,
       "ties": 0,
       "pf": 729.8,
-      "pa": 940.36,
+      "pa": 939.36,
       "percentage": 0.2857142857142857,
       "gamesBack": 4.0,
       "standing": 11,
@@ -2382,8 +2382,8 @@
           "proTeamId": 25,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 8
@@ -2394,8 +2394,8 @@
           "proTeamId": 33,
           "positionId": 1,
           "position": "QB",
-          "slotId": 21,
-          "slot": "IR",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 21.6450383,
           "scoringPeriodId": 8
@@ -2430,8 +2430,8 @@
           "proTeamId": 19,
           "positionId": 4,
           "position": "TE",
-          "slotId": 6,
-          "slot": "TE",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 8
@@ -2466,8 +2466,8 @@
           "proTeamId": 12,
           "positionId": 5,
           "position": "K",
-          "slotId": 17,
-          "slot": "K",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 11.42042949,
           "scoringPeriodId": 8
@@ -2478,8 +2478,8 @@
           "proTeamId": 17,
           "positionId": 4,
           "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 6,
+          "slot": "TE",
           "points": null,
           "projection": 10.54519128,
           "scoringPeriodId": 8
@@ -2494,30 +2494,6 @@
           "slot": "BN",
           "points": null,
           "projection": 6.59496196,
-          "scoringPeriodId": 8
-        },
-        {
-          "id": 14880,
-          "name": "Kirk Cousins",
-          "proTeamId": 13,
-          "positionId": 1,
-          "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
-          "points": null,
-          "projection": 16.10818274,
-          "scoringPeriodId": 8
-        },
-        {
-          "id": 3122840,
-          "name": "Deshaun Watson",
-          "proTeamId": 5,
-          "positionId": 1,
-          "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 12.37422777,
           "scoringPeriodId": 8
         },
         {
@@ -2538,8 +2514,8 @@
           "proTeamId": 16,
           "positionId": 5,
           "position": "K",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 17,
+          "slot": "K",
           "points": null,
           "projection": 14.54828948,
           "scoringPeriodId": 8
@@ -2550,8 +2526,8 @@
           "proTeamId": 7,
           "positionId": 2,
           "position": "RB",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 6.28933739,
           "scoringPeriodId": 8
@@ -2569,27 +2545,39 @@
           "scoringPeriodId": 8
         },
         {
-          "id": -16010,
-          "name": "Titans D/ST",
-          "proTeamId": 10,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 4.93697047,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 4431299,
           "name": "Rome Odunze",
           "proTeamId": 3,
           "positionId": 3,
           "position": "WR",
+          "slotId": 3,
+          "slot": "RB/WR",
+          "points": null,
+          "projection": 9.21018859,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": -16027,
+          "name": "Buccaneers D/ST",
+          "proTeamId": 27,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 5.71285277,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 4426338,
+          "name": "Bo Nix",
+          "proTeamId": 7,
+          "positionId": 1,
+          "position": "QB",
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 9.21018859,
+          "projection": 13.2939844,
           "scoringPeriodId": 8
         }
       ]
@@ -3505,7 +3493,7 @@
           "homeRoster": [],
           "homeLivePoints": null,
           "homeLiveProjection": null,
-          "awayPoints": 115.38,
+          "awayPoints": 114.38,
           "awayProjection": null,
           "awayRoster": [],
           "awayLivePoints": null,
@@ -3934,7 +3922,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 0.0,
-          "homeProjection": 68.63601459,
+          "homeProjection": 97.83199231,
           "homeRoster": [
             {
               "id": 3117251,
@@ -3942,8 +3930,8 @@
               "proTeamId": 25,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 8
@@ -3954,8 +3942,8 @@
               "proTeamId": 33,
               "positionId": 1,
               "position": "QB",
-              "slotId": 21,
-              "slot": "IR",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 21.6450383,
               "scoringPeriodId": 8
@@ -3990,8 +3978,8 @@
               "proTeamId": 19,
               "positionId": 4,
               "position": "TE",
-              "slotId": 6,
-              "slot": "TE",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 8
@@ -4026,8 +4014,8 @@
               "proTeamId": 12,
               "positionId": 5,
               "position": "K",
-              "slotId": 17,
-              "slot": "K",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 11.42042949,
               "scoringPeriodId": 8
@@ -4038,8 +4026,8 @@
               "proTeamId": 17,
               "positionId": 4,
               "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 6,
+              "slot": "TE",
               "points": null,
               "projection": 10.54519128,
               "scoringPeriodId": 8
@@ -4054,30 +4042,6 @@
               "slot": "BN",
               "points": null,
               "projection": 6.59496196,
-              "scoringPeriodId": 8
-            },
-            {
-              "id": 14880,
-              "name": "Kirk Cousins",
-              "proTeamId": 13,
-              "positionId": 1,
-              "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
-              "points": null,
-              "projection": 16.10818274,
-              "scoringPeriodId": 8
-            },
-            {
-              "id": 3122840,
-              "name": "Deshaun Watson",
-              "proTeamId": 5,
-              "positionId": 1,
-              "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 12.37422777,
               "scoringPeriodId": 8
             },
             {
@@ -4098,8 +4062,8 @@
               "proTeamId": 16,
               "positionId": 5,
               "position": "K",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 17,
+              "slot": "K",
               "points": null,
               "projection": 14.54828948,
               "scoringPeriodId": 8
@@ -4110,8 +4074,8 @@
               "proTeamId": 7,
               "positionId": 2,
               "position": "RB",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 6.28933739,
               "scoringPeriodId": 8
@@ -4129,32 +4093,44 @@
               "scoringPeriodId": 8
             },
             {
-              "id": -16010,
-              "name": "Titans D/ST",
-              "proTeamId": 10,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 4.93697047,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 4431299,
               "name": "Rome Odunze",
               "proTeamId": 3,
               "positionId": 3,
               "position": "WR",
+              "slotId": 3,
+              "slot": "RB/WR",
+              "points": null,
+              "projection": 9.21018859,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": -16027,
+              "name": "Buccaneers D/ST",
+              "proTeamId": 27,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 5.71285277,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": 4426338,
+              "name": "Bo Nix",
+              "proTeamId": 7,
+              "positionId": 1,
+              "position": "QB",
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 9.21018859,
+              "projection": 13.2939844,
               "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 68.63601459,
+          "homeLiveProjection": 97.83199231,
           "awayPoints": 0.0,
           "awayProjection": 128.01557186,
           "awayRoster": [
