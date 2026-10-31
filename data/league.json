@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-31T07:29:46.575077+00:00",
+  "updatedAt": "2026-10-31T13:48:01.319995+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1843,18 +1843,6 @@
           "scoringPeriodId": 8
         },
         {
-          "id": 4870808,
-          "name": "Jeremiyah Love",
-          "proTeamId": 22,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 11.45915636,
-          "scoringPeriodId": 8
-        },
-        {
           "id": 4360569,
           "name": "Jordan Mason",
           "proTeamId": 16,
@@ -1912,6 +1900,18 @@
           "slot": "BN",
           "points": null,
           "projection": 8.23301455,
+          "scoringPeriodId": 8
+        },
+        {
+          "id": 4360238,
+          "name": "Dameon Pierce",
+          "proTeamId": 21,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 0.0,
           "scoringPeriodId": 8
         }
       ]
@@ -5057,18 +5057,6 @@
               "scoringPeriodId": 8
             },
             {
-              "id": 4870808,
-              "name": "Jeremiyah Love",
-              "proTeamId": 22,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 11.45915636,
-              "scoringPeriodId": 8
-            },
-            {
               "id": 4360569,
               "name": "Jordan Mason",
               "proTeamId": 16,
@@ -5126,6 +5114,18 @@
               "slot": "BN",
               "points": null,
               "projection": 8.23301455,
+              "scoringPeriodId": 8
+            },
+            {
+              "id": 4360238,
+              "name": "Dameon Pierce",
+              "proTeamId": 21,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 0.0,
               "scoringPeriodId": 8
             }
           ],
