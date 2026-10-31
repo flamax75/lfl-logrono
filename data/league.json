@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-10-30T22:22:39.070042+00:00",
+  "updatedAt": "2026-10-31T01:40:30.531247+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -67,7 +67,7 @@
           "slotId": 2,
           "slot": "RB",
           "points": null,
-          "projection": 19.74602799,
+          "projection": 19.74713547,
           "scoringPeriodId": 8
         },
         {
@@ -103,7 +103,7 @@
           "slotId": 17,
           "slot": "K",
           "points": null,
-          "projection": 12.34334584,
+          "projection": 12.34044532,
           "scoringPeriodId": 8
         },
         {
@@ -365,7 +365,7 @@
           "slotId": 0,
           "slot": "QB",
           "points": 10.36,
-          "projection": 16.43483591,
+          "projection": 16.43488576,
           "scoringPeriodId": 8
         },
         {
@@ -483,7 +483,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 7.98722957,
+          "projection": 7.98814418,
           "scoringPeriodId": 8
         },
         {
@@ -519,7 +519,7 @@
           "slotId": 4,
           "slot": "WR",
           "points": null,
-          "projection": 13.5592932,
+          "projection": 13.55929964,
           "scoringPeriodId": 8
         },
         {
@@ -555,7 +555,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 9.2496611,
+          "projection": 9.25125401,
           "scoringPeriodId": 8
         },
         {
@@ -579,7 +579,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 8.11426201,
+          "projection": 8.11571751,
           "scoringPeriodId": 8
         },
         {
@@ -675,7 +675,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 9.03921776,
+          "projection": 9.04009349,
           "scoringPeriodId": 8
         }
       ]
@@ -733,7 +733,7 @@
           "slotId": 6,
           "slot": "TE",
           "points": null,
-          "projection": 17.61232863,
+          "projection": 17.60785018,
           "scoringPeriodId": 8
         },
         {
@@ -793,7 +793,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 12.59568646,
+          "projection": 12.59266665,
           "scoringPeriodId": 8
         },
         {
@@ -865,7 +865,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 10.28847069,
+          "projection": 10.29681576,
           "scoringPeriodId": 8
         },
         {
@@ -947,7 +947,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 12.53748858,
+          "projection": 12.53981983,
           "scoringPeriodId": 8
         },
         {
@@ -1185,7 +1185,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 19.20399283,
+          "projection": 19.20452667,
           "scoringPeriodId": 8
         },
         {
@@ -1233,7 +1233,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 6.05577294,
+          "projection": 6.05938315,
           "scoringPeriodId": 8
         },
         {
@@ -1351,7 +1351,7 @@
           "slotId": 2,
           "slot": "RB",
           "points": null,
-          "projection": 19.9342066,
+          "projection": 19.93236758,
           "scoringPeriodId": 8
         },
         {
@@ -1363,7 +1363,7 @@
           "slotId": 4,
           "slot": "WR",
           "points": null,
-          "projection": 13.85938775,
+          "projection": 13.86076222,
           "scoringPeriodId": 8
         },
         {
@@ -1541,7 +1541,7 @@
           "slotId": 4,
           "slot": "WR",
           "points": null,
-          "projection": 19.9784765,
+          "projection": 19.98035752,
           "scoringPeriodId": 8
         },
         {
@@ -1649,7 +1649,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 13.82663824,
+          "projection": 13.85251578,
           "scoringPeriodId": 8
         },
         {
@@ -1661,7 +1661,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 8.84773728,
+          "projection": 8.84764586,
           "scoringPeriodId": 8
         },
         {
@@ -1827,7 +1827,7 @@
           "slotId": 3,
           "slot": "RB/WR",
           "points": null,
-          "projection": 11.3496506,
+          "projection": 11.34968283,
           "scoringPeriodId": 8
         },
         {
@@ -1851,7 +1851,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 11.45923059,
+          "projection": 11.45915636,
           "scoringPeriodId": 8
         },
         {
@@ -2137,7 +2137,7 @@
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 5.81087856,
+          "projection": 5.81399781,
           "scoringPeriodId": 8
         },
         {
@@ -2183,7 +2183,7 @@
           "slotId": 2,
           "slot": "RB",
           "points": null,
-          "projection": 24.35002944,
+          "projection": 24.35012856,
           "scoringPeriodId": 8
         },
         {
@@ -2351,7 +2351,7 @@
           "slotId": 16,
           "slot": "D/ST",
           "points": null,
-          "projection": 6.38786363,
+          "projection": 6.29314271,
           "scoringPeriodId": 8
         }
       ]
@@ -2505,7 +2505,7 @@
           "slotId": 2,
           "slot": "RB",
           "points": null,
-          "projection": 7.94315341,
+          "projection": 7.94310121,
           "scoringPeriodId": 8
         },
         {
@@ -2541,7 +2541,7 @@
           "slotId": 4,
           "slot": "WR",
           "points": null,
-          "projection": 10.16461316,
+          "projection": 10.16454731,
           "scoringPeriodId": 8
         },
         {
@@ -3574,7 +3574,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 19.20399283,
+              "projection": 19.20452667,
               "scoringPeriodId": 8
             },
             {
@@ -3622,7 +3622,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 6.05577294,
+              "projection": 6.05938315,
               "scoringPeriodId": 8
             },
             {
@@ -3701,7 +3701,7 @@
           "homeLivePoints": 14.9,
           "homeLiveProjection": 122.648435,
           "awayPoints": 17.3,
-          "awayProjection": 137.84267068,
+          "awayProjection": 137.84087765,
           "awayRoster": [
             {
               "id": 4379399,
@@ -3736,7 +3736,7 @@
               "slotId": 2,
               "slot": "RB",
               "points": null,
-              "projection": 19.74602799,
+              "projection": 19.74713547,
               "scoringPeriodId": 8
             },
             {
@@ -3772,7 +3772,7 @@
               "slotId": 17,
               "slot": "K",
               "points": null,
-              "projection": 12.34334584,
+              "projection": 12.34044532,
               "scoringPeriodId": 8
             },
             {
@@ -3909,7 +3909,7 @@
             }
           ],
           "awayLivePoints": 17.3,
-          "awayLiveProjection": 137.84267068
+          "awayLiveProjection": 137.84087765
         },
         {
           "id": 44,
@@ -3922,7 +3922,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 0.0,
-          "homeProjection": 89.28104609,
+          "homeProjection": 89.28092804,
           "homeRoster": [
             {
               "id": 3117251,
@@ -4053,7 +4053,7 @@
               "slotId": 2,
               "slot": "RB",
               "points": null,
-              "projection": 7.94315341,
+              "projection": 7.94310121,
               "scoringPeriodId": 8
             },
             {
@@ -4089,7 +4089,7 @@
               "slotId": 4,
               "slot": "WR",
               "points": null,
-              "projection": 10.16461316,
+              "projection": 10.16454731,
               "scoringPeriodId": 8
             },
             {
@@ -4130,7 +4130,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 89.28104609,
+          "homeLiveProjection": 89.28092804,
           "awayPoints": 0.0,
           "awayProjection": 127.6863938,
           "awayRoster": [
@@ -4167,7 +4167,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 12.53748858,
+              "projection": 12.53981983,
               "scoringPeriodId": 8
             },
             {
@@ -4544,7 +4544,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 5.81087856,
+              "projection": 5.81399781,
               "scoringPeriodId": 8
             },
             {
@@ -4563,7 +4563,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 111.10967133,
           "awayPoints": 11.8,
-          "awayProjection": 130.93523535,
+          "awayProjection": 130.93711637,
           "awayRoster": [
             {
               "id": 4241389,
@@ -4574,7 +4574,7 @@
               "slotId": 4,
               "slot": "WR",
               "points": null,
-              "projection": 19.9784765,
+              "projection": 19.98035752,
               "scoringPeriodId": 8
             },
             {
@@ -4682,7 +4682,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 13.82663824,
+              "projection": 13.85251578,
               "scoringPeriodId": 8
             },
             {
@@ -4694,7 +4694,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 8.84773728,
+              "projection": 8.84764586,
               "scoringPeriodId": 8
             },
             {
@@ -4747,7 +4747,7 @@
             }
           ],
           "awayLivePoints": 11.8,
-          "awayLiveProjection": 130.93523535
+          "awayLiveProjection": 130.93711637
         },
         {
           "id": 46,
@@ -4760,7 +4760,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 39.5,
-          "homeProjection": 136.85713366,
+          "homeProjection": 136.76251187,
           "homeRoster": [
             {
               "id": 4429795,
@@ -4771,7 +4771,7 @@
               "slotId": 2,
               "slot": "RB",
               "points": null,
-              "projection": 24.35002944,
+              "projection": 24.35012856,
               "scoringPeriodId": 8
             },
             {
@@ -4939,14 +4939,14 @@
               "slotId": 16,
               "slot": "D/ST",
               "points": null,
-              "projection": 6.38786363,
+              "projection": 6.29314271,
               "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 39.5,
-          "homeLiveProjection": 136.85713366,
+          "homeLiveProjection": 136.76251187,
           "awayPoints": 0.0,
-          "awayProjection": 99.26537474,
+          "awayProjection": 99.26540696,
           "awayRoster": [
             {
               "id": 3929630,
@@ -5041,7 +5041,7 @@
               "slotId": 3,
               "slot": "RB/WR",
               "points": null,
-              "projection": 11.3496506,
+              "projection": 11.34968283,
               "scoringPeriodId": 8
             },
             {
@@ -5065,7 +5065,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 11.45923059,
+              "projection": 11.45915636,
               "scoringPeriodId": 8
             },
             {
@@ -5130,7 +5130,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 99.26537474
+          "awayLiveProjection": 99.26540696
         },
         {
           "id": 47,
@@ -5143,7 +5143,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 0.0,
-          "homeProjection": 121.8418451,
+          "homeProjection": 121.84185154,
           "homeRoster": [
             {
               "id": 4430807,
@@ -5166,7 +5166,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 7.98722957,
+              "projection": 7.98814418,
               "scoringPeriodId": 8
             },
             {
@@ -5202,7 +5202,7 @@
               "slotId": 4,
               "slot": "WR",
               "points": null,
-              "projection": 13.5592932,
+              "projection": 13.55929964,
               "scoringPeriodId": 8
             },
             {
@@ -5238,7 +5238,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 9.2496611,
+              "projection": 9.25125401,
               "scoringPeriodId": 8
             },
             {
@@ -5262,7 +5262,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 8.11426201,
+              "projection": 8.11571751,
               "scoringPeriodId": 8
             },
             {
@@ -5358,12 +5358,12 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 9.03921776,
+              "projection": 9.04009349,
               "scoringPeriodId": 8
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 121.8418451,
+          "homeLiveProjection": 121.84185154,
           "awayPoints": 31.26,
           "awayProjection": 122.00628457,
           "awayRoster": [
@@ -5472,7 +5472,7 @@
               "slotId": 0,
               "slot": "QB",
               "points": 10.36,
-              "projection": 16.43483591,
+              "projection": 16.43488576,
               "scoringPeriodId": 8
             },
             {
@@ -5562,7 +5562,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 11.0,
-          "homeProjection": 114.9850135,
+          "homeProjection": 114.98053506,
           "homeRoster": [
             {
               "id": 4362628,
@@ -5597,7 +5597,7 @@
               "slotId": 6,
               "slot": "TE",
               "points": null,
-              "projection": 17.61232863,
+              "projection": 17.60785018,
               "scoringPeriodId": 8
             },
             {
@@ -5657,7 +5657,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 12.59568646,
+              "projection": 12.59266665,
               "scoringPeriodId": 8
             },
             {
@@ -5729,7 +5729,7 @@
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 10.28847069,
+              "projection": 10.29681576,
               "scoringPeriodId": 8
             },
             {
@@ -5758,9 +5758,9 @@
             }
           ],
           "homeLivePoints": 11.0,
-          "homeLiveProjection": 114.9850135,
+          "homeLiveProjection": 114.98053506,
           "awayPoints": 0.0,
-          "awayProjection": 124.7079193,
+          "awayProjection": 124.70745475,
           "awayRoster": [
             {
               "id": 4430878,
@@ -5783,7 +5783,7 @@
               "slotId": 2,
               "slot": "RB",
               "points": null,
-              "projection": 19.9342066,
+              "projection": 19.93236758,
               "scoringPeriodId": 8
             },
             {
@@ -5795,7 +5795,7 @@
               "slotId": 4,
               "slot": "WR",
               "points": null,
-              "projection": 13.85938775,
+              "projection": 13.86076222,
               "scoringPeriodId": 8
             },
             {
@@ -5944,7 +5944,7 @@
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 124.7079193
+          "awayLiveProjection": 124.70745475
         }
       ]
     },
