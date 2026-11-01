@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-01T05:47:59.691371+00:00",
+  "updatedAt": "2026-11-01T12:04:02.145104+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -718,8 +718,8 @@
           "proTeamId": 17,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 8
@@ -790,8 +790,8 @@
           "proTeamId": 22,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 12.59230309,
           "scoringPeriodId": 8
@@ -5562,7 +5562,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 8,
           "homePoints": 11.0,
-          "homeProjection": 115.00595433,
+          "homeProjection": 127.59825743,
           "homeRoster": [
             {
               "id": 4362628,
@@ -5582,8 +5582,8 @@
               "proTeamId": 17,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 8
@@ -5654,8 +5654,8 @@
               "proTeamId": 22,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 12.59230309,
               "scoringPeriodId": 8
@@ -5758,7 +5758,7 @@
             }
           ],
           "homeLivePoints": 11.0,
-          "homeLiveProjection": 115.00595433,
+          "homeLiveProjection": 127.59825743,
           "awayPoints": 0.0,
           "awayProjection": 124.37085884,
           "awayRoster": [
