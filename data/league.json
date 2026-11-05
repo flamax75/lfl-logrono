@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-05T04:22:52.713582+00:00",
+  "updatedAt": "2026-11-05T12:34:21.782189+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -393,18 +393,6 @@
           "scoringPeriodId": 9
         },
         {
-          "id": 4429086,
-          "name": "Michael Mayer",
-          "proTeamId": 13,
-          "positionId": 4,
-          "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 8.35527067,
-          "scoringPeriodId": 9
-        },
-        {
           "id": 4429205,
           "name": "Jordan Addison",
           "proTeamId": 16,
@@ -438,6 +426,18 @@
           "slot": "BN",
           "points": null,
           "projection": 9.03959266,
+          "scoringPeriodId": 9
+        },
+        {
+          "id": 4597500,
+          "name": "Adonai Mitchell",
+          "proTeamId": 20,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 9.69581655,
           "scoringPeriodId": 9
         }
       ]
@@ -5840,18 +5840,6 @@
               "scoringPeriodId": 9
             },
             {
-              "id": 4429086,
-              "name": "Michael Mayer",
-              "proTeamId": 13,
-              "positionId": 4,
-              "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 8.35527067,
-              "scoringPeriodId": 9
-            },
-            {
               "id": 4429205,
               "name": "Jordan Addison",
               "proTeamId": 16,
@@ -5885,6 +5873,18 @@
               "slot": "BN",
               "points": null,
               "projection": 9.03959266,
+              "scoringPeriodId": 9
+            },
+            {
+              "id": 4597500,
+              "name": "Adonai Mitchell",
+              "proTeamId": 20,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 9.69581655,
               "scoringPeriodId": 9
             }
           ],
