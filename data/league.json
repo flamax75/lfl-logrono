@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-07T06:33:52.993351+00:00",
+  "updatedAt": "2026-11-07T13:29:01.275149+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1487,18 +1487,6 @@
           "scoringPeriodId": 9
         },
         {
-          "id": 3116389,
-          "name": "Samaje Perine",
-          "proTeamId": 4,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 5.99006415,
-          "scoringPeriodId": 9
-        },
-        {
           "id": -16026,
           "name": "Seahawks D/ST",
           "proTeamId": 26,
@@ -1520,6 +1508,18 @@
           "slot": "BN",
           "points": null,
           "projection": 11.03597305,
+          "scoringPeriodId": 9
+        },
+        {
+          "id": 4429086,
+          "name": "Michael Mayer",
+          "proTeamId": 13,
+          "positionId": 4,
+          "position": "TE",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 8.35561972,
           "scoringPeriodId": 9
         }
       ]
@@ -6086,18 +6086,6 @@
               "scoringPeriodId": 9
             },
             {
-              "id": 3116389,
-              "name": "Samaje Perine",
-              "proTeamId": 4,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 5.99006415,
-              "scoringPeriodId": 9
-            },
-            {
               "id": -16026,
               "name": "Seahawks D/ST",
               "proTeamId": 26,
@@ -6119,6 +6107,18 @@
               "slot": "BN",
               "points": null,
               "projection": 11.03597305,
+              "scoringPeriodId": 9
+            },
+            {
+              "id": 4429086,
+              "name": "Michael Mayer",
+              "proTeamId": 13,
+              "positionId": 4,
+              "position": "TE",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 8.35561972,
               "scoringPeriodId": 9
             }
           ],
