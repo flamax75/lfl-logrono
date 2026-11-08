@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-08T06:52:42.333381+00:00",
+  "updatedAt": "2026-11-08T13:55:21.623486+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -1701,18 +1701,6 @@
           "scoringPeriodId": 9
         },
         {
-          "id": 3128429,
-          "name": "Courtland Sutton",
-          "proTeamId": 7,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 9.02534542,
-          "scoringPeriodId": 9
-        },
-        {
           "id": 4702555,
           "name": "Jonah Coleman",
           "proTeamId": 7,
@@ -1722,6 +1710,18 @@
           "slot": "RB/WR",
           "points": null,
           "projection": 14.29265851,
+          "scoringPeriodId": 9
+        },
+        {
+          "id": 4040761,
+          "name": "Devin Singletary",
+          "proTeamId": 19,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 13.11912676,
           "scoringPeriodId": 9
         }
       ]
@@ -1752,8 +1752,8 @@
           "proTeamId": 21,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 12.32959753,
           "scoringPeriodId": 9
@@ -1764,8 +1764,8 @@
           "proTeamId": 34,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 13.77306653,
           "scoringPeriodId": 9
@@ -1800,8 +1800,8 @@
           "proTeamId": 23,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 9
@@ -1824,8 +1824,8 @@
           "proTeamId": 18,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 12.21367477,
           "scoringPeriodId": 9
@@ -1836,8 +1836,8 @@
           "proTeamId": 5,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 12.43748261,
           "scoringPeriodId": 9
@@ -1860,22 +1860,10 @@
           "proTeamId": 16,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 7.87407647,
-          "scoringPeriodId": 9
-        },
-        {
-          "id": -16001,
-          "name": "Falcons D/ST",
-          "proTeamId": 1,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
-          "points": null,
-          "projection": 6.45936953,
           "scoringPeriodId": 9
         },
         {
@@ -1884,22 +1872,10 @@
           "proTeamId": 1,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 15.23951118,
-          "scoringPeriodId": 9
-        },
-        {
-          "id": 10621,
-          "name": "Nick Folk",
-          "proTeamId": 1,
-          "positionId": 5,
-          "position": "K",
-          "slotId": 17,
-          "slot": "K",
-          "points": null,
-          "projection": 9.3957512,
           "scoringPeriodId": 9
         },
         {
@@ -1932,10 +1908,34 @@
           "proTeamId": 13,
           "positionId": 1,
           "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 14.35426945,
+          "scoringPeriodId": 9
+        },
+        {
+          "id": -16034,
+          "name": "Texans D/ST",
+          "proTeamId": 34,
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
+          "points": null,
+          "projection": 8.35928985,
+          "scoringPeriodId": 9
+        },
+        {
+          "id": 17427,
+          "name": "Cairo Santos",
+          "proTeamId": 3,
+          "positionId": 5,
+          "position": "K",
+          "slotId": 17,
+          "slot": "K",
+          "points": null,
+          "projection": 11.57879027,
           "scoringPeriodId": 9
         }
       ]
@@ -2098,8 +2098,8 @@
           "proTeamId": 8,
           "positionId": 5,
           "position": "K",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 17,
+          "slot": "K",
           "points": null,
           "projection": 11.77905891,
           "scoringPeriodId": 9
@@ -2170,8 +2170,8 @@
           "proTeamId": 11,
           "positionId": 5,
           "position": "K",
-          "slotId": 17,
-          "slot": "K",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 13.98168351,
           "scoringPeriodId": 9
@@ -4287,7 +4287,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 138.47461389,
           "awayPoints": 11.5,
-          "awayProjection": 115.46643613,
+          "awayProjection": 113.26381154,
           "awayRoster": [
             {
               "id": 4262921,
@@ -4427,8 +4427,8 @@
               "proTeamId": 8,
               "positionId": 5,
               "position": "K",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 17,
+              "slot": "K",
               "points": null,
               "projection": 11.77905891,
               "scoringPeriodId": 9
@@ -4499,15 +4499,15 @@
               "proTeamId": 11,
               "positionId": 5,
               "position": "K",
-              "slotId": 17,
-              "slot": "K",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 13.98168351,
               "scoringPeriodId": 9
             }
           ],
           "awayLivePoints": 11.5,
-          "awayLiveProjection": 115.46643613
+          "awayLiveProjection": 113.26381154
         },
         {
           "id": 51,
@@ -5098,18 +5098,6 @@
               "scoringPeriodId": 9
             },
             {
-              "id": 3128429,
-              "name": "Courtland Sutton",
-              "proTeamId": 7,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 9.02534542,
-              "scoringPeriodId": 9
-            },
-            {
               "id": 4702555,
               "name": "Jonah Coleman",
               "proTeamId": 7,
@@ -5119,6 +5107,18 @@
               "slot": "RB/WR",
               "points": null,
               "projection": 14.29265851,
+              "scoringPeriodId": 9
+            },
+            {
+              "id": 4040761,
+              "name": "Devin Singletary",
+              "proTeamId": 19,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 13.11912676,
               "scoringPeriodId": 9
             }
           ],
@@ -5358,7 +5358,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 9,
           "homePoints": 0.0,
-          "homeProjection": 89.57158772,
+          "homeProjection": 110.77408513,
           "homeRoster": [
             {
               "id": 3929630,
@@ -5366,8 +5366,8 @@
               "proTeamId": 21,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 12.32959753,
               "scoringPeriodId": 9
@@ -5378,8 +5378,8 @@
               "proTeamId": 34,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 13.77306653,
               "scoringPeriodId": 9
@@ -5414,8 +5414,8 @@
               "proTeamId": 23,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 9
@@ -5438,8 +5438,8 @@
               "proTeamId": 18,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 12.21367477,
               "scoringPeriodId": 9
@@ -5450,8 +5450,8 @@
               "proTeamId": 5,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 12.43748261,
               "scoringPeriodId": 9
@@ -5474,22 +5474,10 @@
               "proTeamId": 16,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 7.87407647,
-              "scoringPeriodId": 9
-            },
-            {
-              "id": -16001,
-              "name": "Falcons D/ST",
-              "proTeamId": 1,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
-              "points": null,
-              "projection": 6.45936953,
               "scoringPeriodId": 9
             },
             {
@@ -5498,22 +5486,10 @@
               "proTeamId": 1,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 15.23951118,
-              "scoringPeriodId": 9
-            },
-            {
-              "id": 10621,
-              "name": "Nick Folk",
-              "proTeamId": 1,
-              "positionId": 5,
-              "position": "K",
-              "slotId": 17,
-              "slot": "K",
-              "points": null,
-              "projection": 9.3957512,
               "scoringPeriodId": 9
             },
             {
@@ -5546,15 +5522,39 @@
               "proTeamId": 13,
               "positionId": 1,
               "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 14.35426945,
+              "scoringPeriodId": 9
+            },
+            {
+              "id": -16034,
+              "name": "Texans D/ST",
+              "proTeamId": 34,
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
+              "points": null,
+              "projection": 8.35928985,
+              "scoringPeriodId": 9
+            },
+            {
+              "id": 17427,
+              "name": "Cairo Santos",
+              "proTeamId": 3,
+              "positionId": 5,
+              "position": "K",
+              "slotId": 17,
+              "slot": "K",
+              "points": null,
+              "projection": 11.57879027,
               "scoringPeriodId": 9
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 89.57158772,
+          "homeLiveProjection": 110.77408513,
           "awayPoints": 0.0,
           "awayProjection": 115.0043563,
           "awayRoster": [
