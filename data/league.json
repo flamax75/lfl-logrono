@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-11T02:01:29.588629+00:00",
+  "updatedAt": "2026-11-11T09:13:02.283995+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -417,18 +417,6 @@
           "scoringPeriodId": 10
         },
         {
-          "id": 4361409,
-          "name": "Jahan Dotson",
-          "proTeamId": 1,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 7.56110622,
-          "scoringPeriodId": 10
-        },
-        {
           "id": 4597500,
           "name": "Adonai Mitchell",
           "proTeamId": 20,
@@ -438,6 +426,18 @@
           "slot": "WR",
           "points": null,
           "projection": 10.28349601,
+          "scoringPeriodId": 10
+        },
+        {
+          "id": 4429023,
+          "name": "MarShawn Lloyd",
+          "proTeamId": 9,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 7.27374223,
           "scoringPeriodId": 10
         }
       ]
@@ -2331,18 +2331,6 @@
           "scoringPeriodId": 10
         },
         {
-          "id": 4428850,
-          "name": "Dontayvion Wicks",
-          "proTeamId": 21,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 21,
-          "slot": "IR",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 10
-        },
-        {
           "id": 4711533,
           "name": "Ollie Gordon II",
           "proTeamId": 15,
@@ -2376,6 +2364,18 @@
           "slot": "BN",
           "points": null,
           "projection": 0.0,
+          "scoringPeriodId": 10
+        },
+        {
+          "id": 8439,
+          "name": "Aaron Rodgers",
+          "proTeamId": 23,
+          "positionId": 1,
+          "position": "QB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 14.37179557,
           "scoringPeriodId": 10
         }
       ]
@@ -4355,18 +4355,6 @@
               "scoringPeriodId": 10
             },
             {
-              "id": 4428850,
-              "name": "Dontayvion Wicks",
-              "proTeamId": 21,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 21,
-              "slot": "IR",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 10
-            },
-            {
               "id": 4711533,
               "name": "Ollie Gordon II",
               "proTeamId": 15,
@@ -4400,6 +4388,18 @@
               "slot": "BN",
               "points": null,
               "projection": 0.0,
+              "scoringPeriodId": 10
+            },
+            {
+              "id": 8439,
+              "name": "Aaron Rodgers",
+              "proTeamId": 23,
+              "positionId": 1,
+              "position": "QB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 14.37179557,
               "scoringPeriodId": 10
             }
           ],
@@ -6031,18 +6031,6 @@
               "scoringPeriodId": 10
             },
             {
-              "id": 4361409,
-              "name": "Jahan Dotson",
-              "proTeamId": 1,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 7.56110622,
-              "scoringPeriodId": 10
-            },
-            {
               "id": 4597500,
               "name": "Adonai Mitchell",
               "proTeamId": 20,
@@ -6052,6 +6040,18 @@
               "slot": "WR",
               "points": null,
               "projection": 10.28349601,
+              "scoringPeriodId": 10
+            },
+            {
+              "id": 4429023,
+              "name": "MarShawn Lloyd",
+              "proTeamId": 9,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 7.27374223,
               "scoringPeriodId": 10
             }
           ],
