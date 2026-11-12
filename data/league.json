@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-12T12:25:03.136985+00:00",
+  "updatedAt": "2026-11-12T20:13:23.530027+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -350,8 +350,8 @@
           "proTeamId": 34,
           "positionId": 1,
           "position": "QB",
-          "slotId": 0,
-          "slot": "QB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 17.81919636,
           "scoringPeriodId": 10
@@ -362,8 +362,8 @@
           "proTeamId": 29,
           "positionId": 1,
           "position": "QB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 0,
+          "slot": "QB",
           "points": null,
           "projection": 18.32481592,
           "scoringPeriodId": 10
@@ -429,15 +429,15 @@
           "scoringPeriodId": 10
         },
         {
-          "id": 4819231,
-          "name": "Kaleb Johnson",
-          "proTeamId": 9,
-          "positionId": 2,
-          "position": "RB",
+          "id": 4682648,
+          "name": "Malachi Fields",
+          "proTeamId": 19,
+          "positionId": 3,
+          "position": "WR",
           "slotId": 20,
           "slot": "BN",
           "points": null,
-          "projection": 5.43192186,
+          "projection": 9.3365989,
           "scoringPeriodId": 10
         }
       ]
@@ -790,8 +790,8 @@
           "proTeamId": 22,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 21,
+          "slot": "IR",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 10
@@ -878,6 +878,18 @@
           "slot": "BN",
           "points": null,
           "projection": 7.49161071,
+          "scoringPeriodId": 10
+        },
+        {
+          "id": 3930066,
+          "name": "Van Jefferson",
+          "proTeamId": 28,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 4.45064502,
           "scoringPeriodId": 10
         }
       ]
@@ -1966,8 +1978,8 @@
           "proTeamId": 16,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 17.37973764,
           "scoringPeriodId": 10
@@ -2002,8 +2014,8 @@
           "proTeamId": 3,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 10
@@ -2014,8 +2026,8 @@
           "proTeamId": 17,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 10
@@ -2098,8 +2110,8 @@
           "proTeamId": 8,
           "positionId": 5,
           "position": "K",
-          "slotId": 17,
-          "slot": "K",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 11.6050432,
           "scoringPeriodId": 10
@@ -2122,8 +2134,8 @@
           "proTeamId": 5,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 4.76403911,
           "scoringPeriodId": 10
@@ -2158,8 +2170,8 @@
           "proTeamId": 24,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 6.48889788,
           "scoringPeriodId": 10
@@ -2170,8 +2182,8 @@
           "proTeamId": 11,
           "positionId": 5,
           "position": "K",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 17,
+          "slot": "K",
           "points": null,
           "projection": 13.73485538,
           "scoringPeriodId": 10
@@ -3999,7 +4011,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 88.90717029,
           "awayPoints": 0.0,
-          "awayProjection": 89.32957822,
+          "awayProjection": 102.7123274,
           "awayRoster": [
             {
               "id": 4262921,
@@ -4007,8 +4019,8 @@
               "proTeamId": 16,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 17.37973764,
               "scoringPeriodId": 10
@@ -4043,8 +4055,8 @@
               "proTeamId": 3,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 10
@@ -4055,8 +4067,8 @@
               "proTeamId": 17,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 10
@@ -4139,8 +4151,8 @@
               "proTeamId": 8,
               "positionId": 5,
               "position": "K",
-              "slotId": 17,
-              "slot": "K",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 11.6050432,
               "scoringPeriodId": 10
@@ -4163,8 +4175,8 @@
               "proTeamId": 5,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 4.76403911,
               "scoringPeriodId": 10
@@ -4199,8 +4211,8 @@
               "proTeamId": 24,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 6.48889788,
               "scoringPeriodId": 10
@@ -4211,15 +4223,15 @@
               "proTeamId": 11,
               "positionId": 5,
               "position": "K",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 17,
+              "slot": "K",
               "points": null,
               "projection": 13.73485538,
               "scoringPeriodId": 10
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 89.32957822
+          "awayLiveProjection": 102.7123274
         },
         {
           "id": 56,
@@ -5186,8 +5198,8 @@
               "proTeamId": 22,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 21,
+              "slot": "IR",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 10
@@ -5274,6 +5286,18 @@
               "slot": "BN",
               "points": null,
               "projection": 7.49161071,
+              "scoringPeriodId": 10
+            },
+            {
+              "id": 3930066,
+              "name": "Van Jefferson",
+              "proTeamId": 28,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 4.45064502,
               "scoringPeriodId": 10
             }
           ],
@@ -5896,7 +5920,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 10,
           "homePoints": 0.0,
-          "homeProjection": 118.24185076,
+          "homeProjection": 118.74747032,
           "homeRoster": [
             {
               "id": 4242335,
@@ -5988,8 +6012,8 @@
               "proTeamId": 34,
               "positionId": 1,
               "position": "QB",
-              "slotId": 0,
-              "slot": "QB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 17.81919636,
               "scoringPeriodId": 10
@@ -6000,8 +6024,8 @@
               "proTeamId": 29,
               "positionId": 1,
               "position": "QB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 0,
+              "slot": "QB",
               "points": null,
               "projection": 18.32481592,
               "scoringPeriodId": 10
@@ -6067,20 +6091,20 @@
               "scoringPeriodId": 10
             },
             {
-              "id": 4819231,
-              "name": "Kaleb Johnson",
-              "proTeamId": 9,
-              "positionId": 2,
-              "position": "RB",
+              "id": 4682648,
+              "name": "Malachi Fields",
+              "proTeamId": 19,
+              "positionId": 3,
+              "position": "WR",
               "slotId": 20,
               "slot": "BN",
               "points": null,
-              "projection": 5.43192186,
+              "projection": 9.3365989,
               "scoringPeriodId": 10
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 118.24185076,
+          "homeLiveProjection": 118.74747032,
           "awayPoints": 0.0,
           "awayProjection": 95.98525519,
           "awayRoster": [
