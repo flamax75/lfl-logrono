@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-13T07:50:10.717931+00:00",
+  "updatedAt": "2026-11-13T15:42:47.468859+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -374,8 +374,8 @@
           "proTeamId": 20,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 7.75934536,
           "scoringPeriodId": 10
@@ -422,8 +422,8 @@
           "proTeamId": 17,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 6.45444623,
           "scoringPeriodId": 10
@@ -5920,7 +5920,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 10,
           "homePoints": 0.0,
-          "homeProjection": 116.33498521,
+          "homeProjection": 115.03008608,
           "homeRoster": [
             {
               "id": 4242335,
@@ -6036,8 +6036,8 @@
               "proTeamId": 20,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 7.75934536,
               "scoringPeriodId": 10
@@ -6084,8 +6084,8 @@
               "proTeamId": 17,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 6.45444623,
               "scoringPeriodId": 10
@@ -6104,7 +6104,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 116.33498521,
+          "homeLiveProjection": 115.03008608,
           "awayPoints": 0.0,
           "awayProjection": 95.93035369,
           "awayRoster": [
