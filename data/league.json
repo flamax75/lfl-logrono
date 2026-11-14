@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-14T19:44:33.814113+00:00",
+  "updatedAt": "2026-11-14T23:25:02.470426+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -52,8 +52,8 @@
           "proTeamId": 33,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 17.98733868,
           "scoringPeriodId": 10
@@ -64,8 +64,8 @@
           "proTeamId": 12,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 0.0,
           "scoringPeriodId": 10
@@ -4885,7 +4885,7 @@
           "homeLivePoints": 6.0,
           "homeLiveProjection": 88.14270066,
           "awayPoints": 27.16,
-          "awayProjection": 106.27538672,
+          "awayProjection": 124.26272539,
           "awayRoster": [
             {
               "id": 4379399,
@@ -4905,8 +4905,8 @@
               "proTeamId": 33,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 17.98733868,
               "scoringPeriodId": 10
@@ -4917,8 +4917,8 @@
               "proTeamId": 12,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 0.0,
               "scoringPeriodId": 10
@@ -5093,7 +5093,7 @@
             }
           ],
           "awayLivePoints": 27.16,
-          "awayLiveProjection": 106.27538672
+          "awayLiveProjection": 124.26272539
         },
         {
           "id": 58,
