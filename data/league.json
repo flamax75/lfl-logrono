@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-19T05:30:16.833636+00:00",
+  "updatedAt": "2026-11-19T14:38:33.025208+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -809,18 +809,6 @@
           "scoringPeriodId": 11
         },
         {
-          "id": -16009,
-          "name": "Packers D/ST",
-          "proTeamId": 9,
-          "positionId": 16,
-          "position": "D/ST",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 0.0,
-          "scoringPeriodId": 11
-        },
-        {
           "id": 3124679,
           "name": "Jason Sanders",
           "proTeamId": 20,
@@ -878,6 +866,18 @@
           "slot": "D/ST",
           "points": null,
           "projection": 7.31721346,
+          "scoringPeriodId": 11
+        },
+        {
+          "id": 4686468,
+          "name": "Seth McGowan",
+          "proTeamId": 11,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 5.27534992,
           "scoringPeriodId": 11
         }
       ]
@@ -5115,18 +5115,6 @@
               "scoringPeriodId": 11
             },
             {
-              "id": -16009,
-              "name": "Packers D/ST",
-              "proTeamId": 9,
-              "positionId": 16,
-              "position": "D/ST",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 0.0,
-              "scoringPeriodId": 11
-            },
-            {
               "id": 3124679,
               "name": "Jason Sanders",
               "proTeamId": 20,
@@ -5184,6 +5172,18 @@
               "slot": "D/ST",
               "points": null,
               "projection": 7.31721346,
+              "scoringPeriodId": 11
+            },
+            {
+              "id": 4686468,
+              "name": "Seth McGowan",
+              "proTeamId": 11,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 5.27534992,
               "scoringPeriodId": 11
             }
           ],
