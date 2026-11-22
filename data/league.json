@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-22T01:35:45.233660+00:00",
+  "updatedAt": "2026-11-22T08:45:38.913577+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -2550,8 +2550,8 @@
           "proTeamId": 15,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 7.57491101,
           "scoringPeriodId": 11
@@ -2562,8 +2562,8 @@
           "proTeamId": 3,
           "positionId": 3,
           "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 11.39999388,
           "scoringPeriodId": 11
@@ -4794,7 +4794,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 11,
           "homePoints": 0.0,
-          "homeProjection": 111.47379014,
+          "homeProjection": 115.29887302,
           "homeRoster": [
             {
               "id": 3117251,
@@ -4934,8 +4934,8 @@
               "proTeamId": 15,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 7.57491101,
               "scoringPeriodId": 11
@@ -4946,8 +4946,8 @@
               "proTeamId": 3,
               "positionId": 3,
               "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 11.39999388,
               "scoringPeriodId": 11
@@ -5002,7 +5002,7 @@
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 111.47379014,
+          "homeLiveProjection": 115.29887302,
           "awayPoints": 0.0,
           "awayProjection": 115.65042623,
           "awayRoster": [
