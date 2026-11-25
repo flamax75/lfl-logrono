@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-25T01:53:44.562348+00:00",
+  "updatedAt": "2026-11-25T10:39:47.302666+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -196,8 +196,8 @@
           "proTeamId": 12,
           "positionId": 16,
           "position": "D/ST",
-          "slotId": 16,
-          "slot": "D/ST",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 6.92496039,
           "scoringPeriodId": 12
@@ -215,15 +215,15 @@
           "scoringPeriodId": 12
         },
         {
-          "id": 3046439,
-          "name": "Hunter Henry",
+          "id": -16017,
+          "name": "Patriots D/ST",
           "proTeamId": 17,
-          "positionId": 4,
-          "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
+          "positionId": 16,
+          "position": "D/ST",
+          "slotId": 16,
+          "slot": "D/ST",
           "points": null,
-          "projection": 7.16858377,
+          "projection": 7.42260273,
           "scoringPeriodId": 12
         }
       ]
@@ -444,8 +444,8 @@
           "proTeamId": 1,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 17.47750368,
           "scoringPeriodId": 12
@@ -468,8 +468,8 @@
           "proTeamId": 3,
           "positionId": 4,
           "position": "TE",
-          "slotId": 6,
-          "slot": "TE",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 10.42377831,
           "scoringPeriodId": 12
@@ -480,8 +480,8 @@
           "proTeamId": 5,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
           "projection": 15.23377502,
           "scoringPeriodId": 12
@@ -516,8 +516,8 @@
           "proTeamId": 30,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 4,
+          "slot": "WR",
           "points": null,
           "projection": 17.66159424,
           "scoringPeriodId": 12
@@ -528,8 +528,8 @@
           "proTeamId": 12,
           "positionId": 4,
           "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 6,
+          "slot": "TE",
           "points": null,
           "projection": 11.40243279,
           "scoringPeriodId": 12
@@ -612,8 +612,8 @@
           "proTeamId": 6,
           "positionId": 3,
           "position": "WR",
-          "slotId": 4,
-          "slot": "WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 7.95460406,
           "scoringPeriodId": 12
@@ -648,8 +648,8 @@
           "proTeamId": 16,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 11.34035816,
           "scoringPeriodId": 12
@@ -754,8 +754,8 @@
           "proTeamId": 14,
           "positionId": 2,
           "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "slotId": 2,
+          "slot": "RB",
           "points": null,
           "projection": 13.71319519,
           "scoringPeriodId": 12
@@ -826,8 +826,8 @@
           "proTeamId": 25,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 6.10132818,
           "scoringPeriodId": 12
@@ -838,8 +838,8 @@
           "proTeamId": 10,
           "positionId": 3,
           "position": "WR",
-          "slotId": 3,
-          "slot": "RB/WR",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 6.79322953,
           "scoringPeriodId": 12
@@ -857,15 +857,15 @@
           "scoringPeriodId": 12
         },
         {
-          "id": 4686468,
-          "name": "Seth McGowan",
-          "proTeamId": 11,
-          "positionId": 2,
-          "position": "RB",
-          "slotId": 20,
-          "slot": "BN",
+          "id": 4612826,
+          "name": "Ladd McConkey",
+          "proTeamId": 24,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 3,
+          "slot": "RB/WR",
           "points": null,
-          "projection": 0.0,
+          "projection": 12.15869465,
           "scoringPeriodId": 12
         }
       ]
@@ -1463,18 +1463,6 @@
           "scoringPeriodId": 12
         },
         {
-          "id": 4708049,
-          "name": "Gavin Bartholomew",
-          "proTeamId": 16,
-          "positionId": 4,
-          "position": "TE",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 2.38661748,
-          "scoringPeriodId": 12
-        },
-        {
           "id": -16016,
           "name": "Vikings D/ST",
           "proTeamId": 16,
@@ -1508,6 +1496,18 @@
           "slot": "BN",
           "points": null,
           "projection": 7.91194339,
+          "scoringPeriodId": 12
+        },
+        {
+          "id": 3116164,
+          "name": "Mike Gesicki",
+          "proTeamId": 4,
+          "positionId": 4,
+          "position": "TE",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 7.58273998,
           "scoringPeriodId": 12
         }
       ]
@@ -2533,15 +2533,15 @@
           "scoringPeriodId": 12
         },
         {
-          "id": -16023,
-          "name": "Steelers D/ST",
-          "proTeamId": 23,
+          "id": -16028,
+          "name": "Commanders D/ST",
+          "proTeamId": 28,
           "positionId": 16,
           "position": "D/ST",
           "slotId": 16,
           "slot": "D/ST",
           "points": null,
-          "projection": 6.6192169,
+          "projection": 8.91413162,
           "scoringPeriodId": 12
         }
       ]
@@ -4189,7 +4189,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 109.36137118,
           "awayPoints": 0.0,
-          "awayProjection": 105.29329069,
+          "awayProjection": 119.68826165,
           "awayRoster": [
             {
               "id": 4430807,
@@ -4197,8 +4197,8 @@
               "proTeamId": 1,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 17.47750368,
               "scoringPeriodId": 12
@@ -4221,8 +4221,8 @@
               "proTeamId": 3,
               "positionId": 4,
               "position": "TE",
-              "slotId": 6,
-              "slot": "TE",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 10.42377831,
               "scoringPeriodId": 12
@@ -4233,8 +4233,8 @@
               "proTeamId": 5,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
               "projection": 15.23377502,
               "scoringPeriodId": 12
@@ -4269,8 +4269,8 @@
               "proTeamId": 30,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 4,
+              "slot": "WR",
               "points": null,
               "projection": 17.66159424,
               "scoringPeriodId": 12
@@ -4281,8 +4281,8 @@
               "proTeamId": 12,
               "positionId": 4,
               "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 6,
+              "slot": "TE",
               "points": null,
               "projection": 11.40243279,
               "scoringPeriodId": 12
@@ -4365,8 +4365,8 @@
               "proTeamId": 6,
               "positionId": 3,
               "position": "WR",
-              "slotId": 4,
-              "slot": "WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 7.95460406,
               "scoringPeriodId": 12
@@ -4401,15 +4401,15 @@
               "proTeamId": 16,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 11.34035816,
               "scoringPeriodId": 12
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 105.29329069
+          "awayLiveProjection": 119.68826165
         },
         {
           "id": 68,
@@ -4422,7 +4422,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 12,
           "homePoints": 0.0,
-          "homeProjection": 113.55253023,
+          "homeProjection": 126.52986235,
           "homeRoster": [
             {
               "id": 4362628,
@@ -4502,8 +4502,8 @@
               "proTeamId": 14,
               "positionId": 2,
               "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "slotId": 2,
+              "slot": "RB",
               "points": null,
               "projection": 13.71319519,
               "scoringPeriodId": 12
@@ -4574,8 +4574,8 @@
               "proTeamId": 25,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 6.10132818,
               "scoringPeriodId": 12
@@ -4586,8 +4586,8 @@
               "proTeamId": 10,
               "positionId": 3,
               "position": "WR",
-              "slotId": 3,
-              "slot": "RB/WR",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 6.79322953,
               "scoringPeriodId": 12
@@ -4605,20 +4605,20 @@
               "scoringPeriodId": 12
             },
             {
-              "id": 4686468,
-              "name": "Seth McGowan",
-              "proTeamId": 11,
-              "positionId": 2,
-              "position": "RB",
-              "slotId": 20,
-              "slot": "BN",
+              "id": 4612826,
+              "name": "Ladd McConkey",
+              "proTeamId": 24,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 3,
+              "slot": "RB/WR",
               "points": null,
-              "projection": 0.0,
+              "projection": 12.15869465,
               "scoringPeriodId": 12
             }
           ],
           "homeLivePoints": 0.0,
-          "homeLiveProjection": 113.55253023,
+          "homeLiveProjection": 126.52986235,
           "awayPoints": 0.0,
           "awayProjection": 138.050151,
           "awayRoster": [
@@ -4964,18 +4964,6 @@
               "scoringPeriodId": 12
             },
             {
-              "id": 4708049,
-              "name": "Gavin Bartholomew",
-              "proTeamId": 16,
-              "positionId": 4,
-              "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 2.38661748,
-              "scoringPeriodId": 12
-            },
-            {
               "id": -16016,
               "name": "Vikings D/ST",
               "proTeamId": 16,
@@ -5009,6 +4997,18 @@
               "slot": "BN",
               "points": null,
               "projection": 7.91194339,
+              "scoringPeriodId": 12
+            },
+            {
+              "id": 3116164,
+              "name": "Mike Gesicki",
+              "proTeamId": 4,
+              "positionId": 4,
+              "position": "TE",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 7.58273998,
               "scoringPeriodId": 12
             }
           ],
@@ -5374,7 +5374,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 104.22613545,
           "awayPoints": 0.0,
-          "awayProjection": 115.09059925,
+          "awayProjection": 117.38551397,
           "awayRoster": [
             {
               "id": 3117251,
@@ -5557,20 +5557,20 @@
               "scoringPeriodId": 12
             },
             {
-              "id": -16023,
-              "name": "Steelers D/ST",
-              "proTeamId": 23,
+              "id": -16028,
+              "name": "Commanders D/ST",
+              "proTeamId": 28,
               "positionId": 16,
               "position": "D/ST",
               "slotId": 16,
               "slot": "D/ST",
               "points": null,
-              "projection": 6.6192169,
+              "projection": 8.91413162,
               "scoringPeriodId": 12
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 115.09059925
+          "awayLiveProjection": 117.38551397
         },
         {
           "id": 71,
@@ -5769,7 +5769,7 @@
           "homeLivePoints": 0.0,
           "homeLiveProjection": 110.16207223,
           "awayPoints": 0.0,
-          "awayProjection": 123.02031169,
+          "awayProjection": 123.51795403,
           "awayRoster": [
             {
               "id": 4379399,
@@ -5933,8 +5933,8 @@
               "proTeamId": 12,
               "positionId": 16,
               "position": "D/ST",
-              "slotId": 16,
-              "slot": "D/ST",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 6.92496039,
               "scoringPeriodId": 12
@@ -5952,20 +5952,20 @@
               "scoringPeriodId": 12
             },
             {
-              "id": 3046439,
-              "name": "Hunter Henry",
+              "id": -16017,
+              "name": "Patriots D/ST",
               "proTeamId": 17,
-              "positionId": 4,
-              "position": "TE",
-              "slotId": 20,
-              "slot": "BN",
+              "positionId": 16,
+              "position": "D/ST",
+              "slotId": 16,
+              "slot": "D/ST",
               "points": null,
-              "projection": 7.16858377,
+              "projection": 7.42260273,
               "scoringPeriodId": 12
             }
           ],
           "awayLivePoints": 0.0,
-          "awayLiveProjection": 123.02031169
+          "awayLiveProjection": 123.51795403
         },
         {
           "id": 72,
