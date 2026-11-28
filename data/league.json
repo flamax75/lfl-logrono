@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ESPN",
   "available": true,
-  "updatedAt": "2026-11-28T03:13:59.301465+00:00",
+  "updatedAt": "2026-11-28T11:49:04.779400+00:00",
   "league": {
     "id": 1294118495,
     "name": "Liga Papeo2",
@@ -326,8 +326,8 @@
           "proTeamId": 20,
           "positionId": 2,
           "position": "RB",
-          "slotId": 2,
-          "slot": "RB",
+          "slotId": 20,
+          "slot": "BN",
           "points": null,
           "projection": 8.1306929,
           "scoringPeriodId": 12
@@ -342,42 +342,6 @@
           "slot": "D/ST",
           "points": null,
           "projection": 7.1088228,
-          "scoringPeriodId": 12
-        },
-        {
-          "id": 4366031,
-          "name": "Tank Dell",
-          "proTeamId": 34,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 10.1584107,
-          "scoringPeriodId": 12
-        },
-        {
-          "id": 4597500,
-          "name": "Adonai Mitchell",
-          "proTeamId": 20,
-          "positionId": 3,
-          "position": "WR",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 10.85599799,
-          "scoringPeriodId": 12
-        },
-        {
-          "id": 3150744,
-          "name": "Chase McLaughlin",
-          "proTeamId": 27,
-          "positionId": 5,
-          "position": "K",
-          "slotId": 20,
-          "slot": "BN",
-          "points": null,
-          "projection": 11.66952285,
           "scoringPeriodId": 12
         },
         {
@@ -426,6 +390,42 @@
           "slot": "BN",
           "points": null,
           "projection": null,
+          "scoringPeriodId": 12
+        },
+        {
+          "id": 4362619,
+          "name": "Chris Rodriguez Jr.",
+          "proTeamId": 30,
+          "positionId": 2,
+          "position": "RB",
+          "slotId": 2,
+          "slot": "RB",
+          "points": null,
+          "projection": 15.50189694,
+          "scoringPeriodId": 12
+        },
+        {
+          "id": 4432773,
+          "name": "Brian Thomas Jr.",
+          "proTeamId": 30,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 11.69575009,
+          "scoringPeriodId": 12
+        },
+        {
+          "id": 4879194,
+          "name": "Josh Cameron",
+          "proTeamId": 30,
+          "positionId": 3,
+          "position": "WR",
+          "slotId": 20,
+          "slot": "BN",
+          "points": null,
+          "projection": 11.60034649,
           "scoringPeriodId": 12
         }
       ]
@@ -5188,7 +5188,7 @@
           "homeChance": null,
           "rosterScoringPeriodId": 12,
           "homePoints": 4.9,
-          "homeProjection": 101.74380422,
+          "homeProjection": 109.11500825,
           "homeRoster": [
             {
               "id": 4426502,
@@ -5268,8 +5268,8 @@
               "proTeamId": 20,
               "positionId": 2,
               "position": "RB",
-              "slotId": 2,
-              "slot": "RB",
+              "slotId": 20,
+              "slot": "BN",
               "points": null,
               "projection": 8.1306929,
               "scoringPeriodId": 12
@@ -5284,42 +5284,6 @@
               "slot": "D/ST",
               "points": null,
               "projection": 7.1088228,
-              "scoringPeriodId": 12
-            },
-            {
-              "id": 4366031,
-              "name": "Tank Dell",
-              "proTeamId": 34,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 10.1584107,
-              "scoringPeriodId": 12
-            },
-            {
-              "id": 4597500,
-              "name": "Adonai Mitchell",
-              "proTeamId": 20,
-              "positionId": 3,
-              "position": "WR",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 10.85599799,
-              "scoringPeriodId": 12
-            },
-            {
-              "id": 3150744,
-              "name": "Chase McLaughlin",
-              "proTeamId": 27,
-              "positionId": 5,
-              "position": "K",
-              "slotId": 20,
-              "slot": "BN",
-              "points": null,
-              "projection": 11.66952285,
               "scoringPeriodId": 12
             },
             {
@@ -5369,10 +5333,46 @@
               "points": null,
               "projection": null,
               "scoringPeriodId": 12
+            },
+            {
+              "id": 4362619,
+              "name": "Chris Rodriguez Jr.",
+              "proTeamId": 30,
+              "positionId": 2,
+              "position": "RB",
+              "slotId": 2,
+              "slot": "RB",
+              "points": null,
+              "projection": 15.50189694,
+              "scoringPeriodId": 12
+            },
+            {
+              "id": 4432773,
+              "name": "Brian Thomas Jr.",
+              "proTeamId": 30,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 11.69575009,
+              "scoringPeriodId": 12
+            },
+            {
+              "id": 4879194,
+              "name": "Josh Cameron",
+              "proTeamId": 30,
+              "positionId": 3,
+              "position": "WR",
+              "slotId": 20,
+              "slot": "BN",
+              "points": null,
+              "projection": 11.60034649,
+              "scoringPeriodId": 12
             }
           ],
           "homeLivePoints": 4.9,
-          "homeLiveProjection": 101.74380422,
+          "homeLiveProjection": 109.11500825,
           "awayPoints": 26.7,
           "awayProjection": 132.8796544,
           "awayRoster": [
